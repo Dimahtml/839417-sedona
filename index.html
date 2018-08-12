@@ -1,117 +1,119 @@
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
-    	<meta charset="utf-8">
-    	<title>HTML Academy: Седона</title>
-  	</head>
-  	<body>
+     <meta charset="utf-8">
+    <title>Поиск гостиницы в Седоне</title>
+  </head>
+  <body>
 
-  		<header>
-  			<nav>
-  				<img href="#" alt="logo">	
-  				<ul>
-  					<li><a>ИНФОРМАЦИЯ<a></li>
-  					<li><a>ФОТО И ВИДЕО</a></li>
-  					<li><a>КАРТА ШТАТА</a></li>
-  					<li><a>ГОСТИНИЦЫ</a></li>
-  				</ul>
-  			<nav>	
-  		</header>
+  	<header class="main-header">
+  	  <nav class="main-navigation">
+  	  	<a class="main-header-logo"><img src="#" alt="logo"></a>
+  			<ul class="site-navigation">
+  				<li><a href="info.html">ИНФОРМАЦИЯ</a></li>
+  				<li><a href="foto-video.html">ФОТО И ВИДЕО</a></li>
+  				<li><a href="map.html">КАРТА ШТАТА</a></li>
+  				<li><a href="catalog.html">ГОСТИНИЦЫ</a></li>
+  			</ul>
+  	 	<nav>	
+  	</header>
 
-  		<main>
-
-  			<div>
-  				<h1>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br>ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h1>
-  				<h2>РАСМОТРИМ ПЯТЬ ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!</h2>
-  			</div>
-
-  			<div>
-  				<div>
-  					<span>НАСТОЯЩИЙ ГОРОДОК</span>
-  					<span>- № 1 -</span>
-  					<span>СЕДОНА - НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</span>
-  				</div>
-  				<div>
-  					<img href="#" alt="sedona-town">	
-  				</div>
-  			</div>
+  	<main class="container">
+      <h1 class="visual-hidden">Гостиницы Седоны</h1>
+  			<p class="header-1">СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br>ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</p>
+  			<p class="header-2">РАСМОТРИМ ПЯТЬ ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!</p>
+  		
+      <div class="features">
+  		  <div class="feature-blue">
+  				<h2>НАСТОЯЩИЙ ГОРОДОК</h2>
+  				<span>- № 1 -</span>
+  				<p>СЕДОНА - НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>        <!-- первая строка основного содержания-->
+        </div>    
+  		  <div class="bg-hotels">	
+  			   <!-- Здесь будет фоновое изображение	домов -->
+  		  </div>
+      <div>
+  		
   				
-  			<div>	
-  				<ul>
-  					<li>
-  						<div>картинка-фон</div>
-  						<div>ЖИЛЬЕ</div>
-  						<div>рекомендуем пожить в настоящем мотеле, всё как в кино!</div>
-  					</li>
-  					<li>
-  						<div>картинка-фон</div>
-  						<div>ЕДА</div>
-  						<div>всегда заказывайте фирменный бургер, вы не разочаруетесь!</div>
-  					</li>	
-  					<li>
-  						<div>картинка-фон</div>
-  						<div>СУВЕНИРЫ</div>
-  						<div>не только китайского, но и местного производства!</div>
-  					</li>
-  				</ul>
-  			</div>
-  			<div>
-  				<img href="#" alt="devil-bridge">
-  				<div>
-  					<div>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</div>
-  					<div>- № 2 -</div>
-  					<div>ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ КОНЕЧНО ВЫ ОСМЕЛИТЕСЬ</div>
-  				</div>
-  			</div>
-  			
-  			<div>  			
-  				<div>
-  					<div>НЕБОЛЬШАЯ ПЛОЩАДЬ</div>
-  					<div>- № 3 -</div>
-  					<div>ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</div>
-  				</div>	
-  				<div>
-  					<div>КРАСИВАЯ ДОРОГА</div>
-  					<div>- № 4 -</div>
-  					<div>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ НЕ СКУЧНО!</div>
-  				</div>
-  				<div>
-  					<div>МАЛО ТУРИСТОВ</div>
-  					<div>- № 5 -</div>
-  					<div>БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН И ТОЛПИТСЯ ТАМ</div>
-  				</div>
-  			</div>		
+  		<div class="features">	
+  			<ul class="second-string">
+  				<li class="second-string-item">
+  					<h2>ЖИЛЬЕ</h2>
+  					<p>рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+  				</li>
+  				<li class="second-string-item">
+  					<h2>ЕДА</h2>
+  					<p>всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>     <!-- вторая строка основного содержания-->
+  				</li>	
+  				<li class="second-string-item">
+  					<h2>СУВЕНИРЫ</h2>
+  					<p>не только китайского, но и местного производства!</p>
+  				</li>
+  			</ul>
+  		</div>
 
-  			<div>
-  				ЗАИНТЕРЕСОВАЛИСЬ?
+  		<div class="features">
+  		  <div class="bg-bridge">
+           <!-- Здесь фоновое изображение моста дьявола -->
+        </div>  
+  			<div class="feature-blue">
+          <h2>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h2>
+  				<span>- № 2 -</span>
+  				<p>ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ КОНЕЧНО ВЫ ОСМЕЛИТЕСЬ</p>           <!-- третья строка основного содержания-->
   			</div>
+  		</div>
+  			
+  		<div class="features">   			
+  			<ul class="fourth-string">
+          <li class="fourth-string-item">
+  				  <h2>НЕБОЛЬШАЯ ПЛОЩАДЬ</h2>
+  				  <span>- № 3 -</span>
+  				  <p>ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
+          </li>
+          <li class="fourth-string-item">
+  				  <h2>КРАСИВАЯ ДОРОГА</h2>
+  				  <span>- № 4 -</span>
+  				  <p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ НЕ СКУЧНО!</p>              <!-- четвертая строка основного содержания-->
+  			  </li>
+  			  <li class="fourth-string-item">
+  				  <h2>МАЛО ТУРИСТОВ</h2>
+  				  <span>- № 5 -</span>
+  				  <p>БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН И ТОЛПИТСЯ ТАМ</p>
+          </li>  
+  			</ul>
+  		</div>		
+
+  		<div class="features">
+  			<p>ЗАИНТЕРЕСОВАЛИСЬ?</p>
+        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+  		</div>
 			<!--
   			<form>
   				
   			</form> 
   					-->
 
-  			<div>
-  				<!-- Здесь будет карта -->
-  			</div>	
+  		<div>
+  			<!-- Здесь будет карта -->
+  		</div>	
 
-  		</main>
+  	</main>
 
-  		<footer>
-  			<p>
+  	<footer>
+  		<a>
   				#VISITSEDONA
-  			</p>
-  			<div>	
-  				<img href="#" alt="twitter">
-  				<img heff="#" alt="facebook">
-  				<img href="#" alt="youtube">
-  			</div>
-  			<p>
-  				<span>WEBSITE BY</span>
-  				<img href="#" alt="html academy">
-  				<span>html academy</span> 
-  			</p>	
-  		</footer>	
+  		</a>
+  		<div>	
+  			<a><img href="#" alt="twitter"></a>
+  			<a><img heff="#" alt="facebook"></a>
+  			<a><img href="#" alt="youtube"></a>
+  		</div>
+  		<p>
+  			<span>WEBSITE BY</span>
+  			<img href="#" alt="html academy">
+  			<span>html academy</span> 
+  		</p>	
+  	</footer>	
 
     </body>
 </html>
