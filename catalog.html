@@ -17,27 +17,78 @@
   			</ul>
   	 	<nav>	
   	</header>
-
-    <!--
-      <form></form>
-      -->
-
+    
     <main>
+
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <fieldset>
+          <legend>Инфраструктура:</legend>
+          <ul>
+            <li> 
+              <label>
+                <input type="checkbox" id="" name="poll" checked>Бассейн
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" id="" name="parking">Парковка
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" id="" name="wi-fi">Wi-Fi
+              </label>
+            </li>
+          </ul>    
+        </fieldset>  
+        
+        <fieldset>
+          <legend>Тип жилья:</legend>
+          <ul>
+            <li>
+              <label>
+                <input type="checkbox" id="" name="hostel" checked>Гостиница
+              </label>
+            </li>
+            <li>  
+              <label>
+                <input type="checkbox" id="" name="motel" checked="">Мотель
+              </label>
+            </li>
+            <li>  
+              <label>
+                <input type="checkbox" id="" name="apartaments" checked="">Апартаменты
+              </label>
+            </li>
+          </ul>    
+        </fieldset>
+
+        <label for="cost">
+          Стоимость в сутки (Р):
+        </label>
+        <p>от 0 до 3000</p>
+        <input type="range" id="cost" name="cost"">
+        
+        <button>Показать</button>
+      </form>
+      
+      <p>
       <div class="find">
         <b>Найдено:</b> 
         <span>Сортировка:</span> 
-        <a href="">по цене</a>
-        <a href="">по типу</a>
-        <a href="">по рейтингу</a>               
+        <a href="#">по цене</a>
+        <a href="#">по типу</a>
+        <a href="#">по рейтингу</a>               
       </div>
+    </p>
 
       <section class="found-hotel">
         <img src="img/amara.jpg" alt="Amara resort spa" width="#" height="#">
         <div class="name-hotel">
-          <h3>Amara resort spa</h3>
+          <h3>Amara Resort & Spa</h3>
           <p>Гостиница от 4000 руб.</p>
-          <a class="link-blue">подробнее</a> 
-          <a class="link-brown">забронировть</a>
+          <a href="#" class="link-blue">Подробнее</a> 
+          <a href="#" class="link-brown">Забронировть</a>
         </div>
         <div class="stars">
           Рейтинг 8,5
@@ -47,10 +98,10 @@
        <section class="found-hotel">
         <img src="img/desert.jpg" alt="Desert qual inn" width="#" height="#">
         <div class="name-hotel">
-          <h3>Desert qual inn</h3>
+          <h3>Desert Qual Inn</h3>
           <p>Мотель от 3000 руб.</p>
-          <a class="link-blue">подробнее</a> 
-          <a class="link-brown">забронировть</a>
+          <a href="#" class="link-blue">Подробнее</a> 
+          <a href="#" class="link-brown">Забронировть</a>
         </div>
         <div class="stars">
           Рейтинг 8,9
@@ -60,10 +111,10 @@
        <section class="found-hotel">
         <img src="img/villas.jpg" alt="Villas at poco diablo" width="#" height="#">
         <div class="name-hotel">
-          <h3>Villas at poco diablo</h3>
+          <h3>Villas at Poco Diablo</h3>
           <p>Апартаменты от 2000 руб.</p>
-          <a class="link-blue">подробнее</a> 
-          <a class="link-brown">забронировть</a>
+          <a href="#" class="link-blue">Подробнее</a> 
+          <a href="#" class="link-brown">забронировть</a>
         </div>
         <div class="stars">
           Рейтинг 9,2
