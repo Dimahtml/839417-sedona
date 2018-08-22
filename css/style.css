@@ -19,10 +19,15 @@ a {
 	color: #000000;
 }
 
+.visually-hidden {
+	display: none;
+}
+
 .main-header {
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: bold;
+	text-align: center;
 }
 
 ul.site-navigation {
@@ -87,4 +92,94 @@ p.header-2 {
 .features ul {
 	list-style: none;
 	text-align: center;
+}
+
+div.feature-item {
+	background-color: #81b3d2;
+}
+
+li.feature-item {
+	background-color: #eeeeee;
+}
+
+.interest {
+	text-align: center;
+}
+
+.interest h3 {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: bold;
+}
+
+.interest p {
+	font-size: 14px;
+	line-height: 24px;
+	color: #333333;
+}
+
+button.search {
+	background-color: #766357;
+	color: #ffffff;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-style: none;
+	width: 568px;
+	height: 86px;
+}
+
+button.search:hover {
+	background-color: #604e43;
+	color: #ffffff;
+}
+
+button.search:active {
+	background-color: #503e33;
+	/*   ЦВЕТ ТЕКСТА НА КНОПКЕ ???      */
+}
+
+button.btn {
+	background-color: #81b3d2;
+	color: #ffffff;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-style: none;
+	width: 568px;
+	height: 86px;
+}
+
+button.btn:hover {
+	background-color: #669ec0;
+	color: #ffffff;
+}
+
+button.btn:active {
+	background-color: #5496bd;
+	/*   ЦВЕТ ТЕКСТА НА КНОПКЕ ???      */
+}
+
+p label {
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+.hashtag {
+	color: #000000;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+.madeby {
+	color: #000000;
+	font-size: 14px;
+	line-height: 26px;
+
 }
