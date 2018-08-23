@@ -33,13 +33,13 @@ a {
 	text-align: center;
 }
 
-ul.site-navigation {
+ul.site-navigation {					/* Хедер */
 	list-style: none;
 }
 
 .site-navigation a {
 	font-size: 14px; 
-	line-height: 26px;
+	line-height: 26px;					/* Хедер */
 	font-weight: bold;
 }
 
@@ -47,21 +47,21 @@ ul.site-navigation {
 	color: #81b3d2;
 }
 
-.site-navigation a:active {
+.site-navigation a:active {				/* Хедер */
 	color: #000000;
 	opacity: 0.3;
 }
 
 p.header-1 {
 	text-align: center;
-	font-size: 21px;
+	font-size: 21px;				/* Седона - небольшой городок... */
 	line-height: 26px;
 	font-weight: bold;
 	color: #000000; 
 }
 
 p.header-2 {
-	text-align: center;
+	text-align: center;				/* Рассмотрим пять причин... */
 	font-size: 14px;
 	line-height: 26px;
 	color: #333333;
@@ -140,7 +140,8 @@ button.search:hover {
 
 button.search:active {
 	background-color: #503e33;
-	/*   ЦВЕТ ТЕКСТА НА КНОПКЕ ???      */
+	color: rgba(255,255,255,0.3);
+
 }
 
 button.btn {
@@ -162,7 +163,7 @@ button.btn:hover {
 
 button.btn:active {
 	background-color: #5496bd;
-	/*   ЦВЕТ ТЕКСТА НА КНОПКЕ ???      */
+	color: rgba(255,255,255,0.3);
 }
 
 label.form-index {
@@ -222,29 +223,41 @@ label.form-index {
 	line-height: 18px;
 }
 
-.find a {
-	color: #cacaca;
+.sort {
+	color: #cacaca;				/* По цене, По типу, По рейтингу */
 
 }
 
-.find a:hover {
+.sort:hover {
 	color: #81b3d2;
 }
 
-.find a:active {
-	color: #000000;
-}
 
-.find a,
-.find a:hover {
+
+.sort,
+.sort:hover {
 	border-bottom: 1px dotted #81b3d2;
 }
+
+.sort:active {
+	color: #000000;
+	border-bottom: none;
+}
+
 
 .name-hotel h3 {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: bold;
 	color: #000000;
+}
+
+.name-hotel a:hover {
+	color: *#81b3d2;
+}
+
+.name-hotel a:active {
+	color: rgba(0,0,0,0.3);
 }
 
 .stars {
@@ -267,4 +280,20 @@ label.form-index {
 
 .link-brown {
 	background-color: #766357;
+}
+
+.social {
+	background-color: #81b3d2;
+}
+
+.social:hover {
+	background-color: #669ec0;
+}
+
+.social:active {
+	background-color: #5496bd;
+}
+
+.social img:active {
+	opacity: 0.3;
 }
