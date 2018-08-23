@@ -24,8 +24,8 @@
 
       <form action="https://echo.htmlacademy.ru" method="post">
         <fieldset>
-          <legend>Инфраструктура:</legend>
-          <ul>
+          <legend class="form-header">Инфраструктура:</legend>
+          <ul class="catalog-list">
             <li> 
               <label>
                 <input type="checkbox" name="pool" value="pool" checked>Бассейн
@@ -41,12 +41,12 @@
                 <input type="checkbox" name="wi-fi" value="wi-fi">Wi-Fi
               </label>
             </li>
-          </ul>    
-        </fieldset>  
+          </ul>
+        </fieldset>
         
         <fieldset>
-          <legend>Тип жилья:</legend>
-          <ul>
+          <legend class="form-header">Тип жилья:</legend>
+          <ul class="catalog-list">
             <li>
               <label>
                 <input type="checkbox" name="hostel" checked>Гостиница
@@ -65,13 +65,13 @@
           </ul>    
         </fieldset>
 
-        <label for="cost">
+        <label for="cost" class="form-header">
           Стоимость в сутки (Р):
         </label>
-        <p>от 0 до 3000</p>
+        <p class="catalog-list">от 0 до 3000</p>
         <input type="range" id="cost" name="cost">
         
-        <button type="submit" value="Показать">Показать</button>
+        <button type="submit" value="Показать" class="catalog-btn">Показать</button>
       </form>
       
       <p>
@@ -93,7 +93,7 @@
           <a href="#" class="link-brown">Забронировть</a>
         </div>
         <div class="stars">
-          Рейтинг 8,5
+          Рейтинг: 8,5
         </div>
       </section>
 
@@ -106,7 +106,7 @@
           <a href="#" class="link-brown">Забронировть</a>
         </div>
         <div class="stars">
-          Рейтинг 8,9
+          Рейтинг: 8,9
         </div>
       </section>
 
@@ -119,7 +119,7 @@
           <a href="#" class="link-brown">Забронировть</a>
         </div>
         <div class="stars">
-          Рейтинг 9,2
+          Рейтинг: 9,2
         </div>
       </section> 
       
