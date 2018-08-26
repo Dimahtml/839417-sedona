@@ -9,8 +9,8 @@
 @font-face {
 	font-family: "PT Sans";
 	src:
-	url("../fonts/ptsansbold.woff2") format("woff2"), 
-    url("../fonts/ptsansbold.woff") format("woff");
+	url("../fonts/ptsansbold.woff2") font-weight:bold format("woff2"), 
+    url("../fonts/ptsansbold.woff") font-weight:bold format("woff");
 }
 
 body {
@@ -74,13 +74,19 @@ p.header-2 {
 	color: #333333;
 }
 
-.feature-item h2,
+.feature-item h2,				
 .features h2 {
 	font-size: 21px;
 	line-height: 21px;
 	font-weight: bold;
 	color: #000000;
 	text-align: center;
+}
+
+div.feature-item h2,
+div.feature-item span,		/* преимущества  N1  и  N2 */
+div.feature-item p {
+	color: white;
 }
 
 .feature-item span {
@@ -218,7 +224,7 @@ label.form-index {
 	font-size: 14px;
 	line-height: 21px;
 	text-transform: uppercase;
-	font-weight: normal;
+	font-weight: 400;
 	outline: none;
 	padding: 10px 35px;
 	border: 2px solid white;
@@ -309,4 +315,119 @@ label.form-index {
 
 .social img:active {
 	opacity: 0.3;
+}
+
+			/*	С Е Т К И	*/
+
+.site-navigation {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;		/* список */
+	align-items: center;
+	margin: auto;
+	padding: 0px;
+	width: 1200px;
+	border: 1px solid red;    /*  граница для построения сетки, потом надо убрать */  
+	margin-left: auto;
+
+	
+}
+
+.site-navigation li {
+	padding: 0px 20px;
+	border: 1px solid black;    /*  граница для построения сетки, потом надо убрать */
+}
+
+a.main-header-logo {
+	padding: 0px;
+}
+
+.bg {
+	display: flex;
+	flex-direction: column;									/* Фон на главной странице */
+	justify-content: flex-end;
+	margin: 0px auto;
+	align-items: center;
+	background-image: url("../img/background-photo.jpg");
+	background-repeat: no-repeat;
+	border: 2px solid blue; /*рамку уберем */
+	width: 1200px;
+	height: 717px;
+	
+}
+
+.welcome {
+	background-image: url("../img/intro-welcome.svg");
+	border: 2px dashed white;		/*рамку уберем */					/* Welcome */
+	min-height: 353px;
+	min-width: 459px;
+}
+
+.mask {
+	background-image: url("../img/intro-mask.svg");        /* Маска */ 
+	background-repeat: no-repeat;
+	border: 2px solid orange;
+	height: 60px;
+	min-width: 1200px;
+	vertical-align: bottom;
+}
+
+.white-bg {		
+	background-color: white;						/* Два блока с текстом и белым фоном */
+	border: 2px solid yellow;		/*рамку уберем */
+	min-width: 1200px;
+}
+
+.main-content {
+	display: flex;				/* div для основного содержания главной страницы */
+	flex-wrap: wrap;
+	width: 1200px;
+	border: 3px solid green;	/* рамку убрать */
+	margin: 0px auto;
+}				
+
+.bg-hotels {
+	width: 800px;
+	height: 256px;
+	border: 2px solid grey;								/* РАМКУ убрать */
+	background-image: url("../img/house.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.bg-bridge {
+	width: 800px;
+	height: 256px;
+	border: 2px solid grey;								/* РАМКУ убрать */
+	background-image: url("../img/bridge.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.feature-item {
+	border: 2px solid aqua;   /* карточки с номерами преимуществ */
+	width: 392px;
+	padding: 40px;
+	margin: 0px;
+	box-sizing: border-box;
+	
+}
+
+.second-string-item {
+	border: 2px solid pink;
+	width: 392px;					/*  элемент списка второй строки   */
+	padding: 50px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.second-string,
+.fourth-string {          
+	display: flex;				/* списки, из которых состоит вторая и четвертая строки основного содержания */
+	border: 2px solid red;
+	justify-content: space-around;
+	width: 1200px;
+	padding: 0px;
+	flex-wrap: nowrap;
+	margin: 0px;
 }
