@@ -288,6 +288,8 @@ label.form-index {
 	background-color: #766357;
 }
 
+
+
 .social {
 	background-color: #81b3d2;
 }
@@ -304,10 +306,14 @@ label.form-index {
 	opacity: 0.3;
 }
 
+.social ul {
+	list-style: none;
+}
+
 			/******************	С Е Т К И	****************/
 
 .wrapper {
-	border: 2px solid brown;
+	border: 0px solid brown;     /*  РАМКА  */
 	width: 1200px;
 	margin: 0 auto;
 }
@@ -434,12 +440,24 @@ a.main-header-logo {
 .main-footer {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	margin: 0px;
+	padding: 0px;
 	min-height: 120px;
+	border: 0px solid red;		/*     Р А М К А   */
+	background-color: #ffffff;
 }
+
+.map {
+	border: 0px solid black;	/*   РАМКА   */ 
+	height: 474px;
+}
+
 
 .visit {
 	width:400px;
+	padding-left: 135px;
+	background-color: #ffffff;
+	margin: 0px;
 }
 
 .social {
@@ -448,4 +466,8 @@ a.main-header-logo {
 
 .copyright {
 	width:400px;
+	background-color: #ffffff;
+	border: 0px solid green;   /*  РАМКА  */
+	min-height: 120px;
+	margin: 0px;
 }
