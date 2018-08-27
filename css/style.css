@@ -77,6 +77,8 @@ p.header-2 {
 	font-weight: bold;
 	color: #000000;
 	text-align: center;
+	
+	border: 1px solid red;   /* RAMKA */
 }
 
 div.feature-item h2,
@@ -91,6 +93,7 @@ div.feature-item p {
 	line-height: 21px;
 	color: #333333;
 	text-align: center;
+	border: 1px solid red;    /* RAMKA */ 
 }
 
 .feature-item p,
@@ -99,14 +102,26 @@ div.feature-item p {
 	line-height: 21px;
 	color: #333333;
 	text-align: center;
+	border: 1px solid red;      /*  RAMKA  */ 
 }
 
 div.feature-item {
 	background-color: #81b3d2;
+	border: 2px solid aqua;   		/* карточки с номерами преимуществ */
+	width: 400px;
+	height: 256px;
+	padding: 40px;
+	min-height: 256px;
+	box-sizing: border-box;
 }
 
 li.feature-item {
 	background-color: #eeeeee;
+	height: 256px;
+	padding-top: 50px;				/*  элементы четвертой строки  */
+	padding-left: 67px;      
+	padding-right: 67px; 
+	border: 1px solid blue;    /*  RAMKA  */
 }
 
 .interest h3 {
@@ -328,7 +343,7 @@ label.form-index {
 			/******************	С Е Т К И	****************/
 
 .wrapper {
-	border: 0px solid brown;     /*  РАМКА  */
+	border: 2px solid brown;     /*  РАМКА  */
 	width: 1200px;
 	margin: 0 auto;
 }
@@ -407,6 +422,7 @@ a.main-header-logo {
 	background-image: url("../img/house.jpg");
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+	box-sizing: border-box;
 }
 
 .bg-bridge {
@@ -416,21 +432,14 @@ a.main-header-logo {
 	background-image: url("../img/bridge.jpg");
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-}
-
-.feature-item {
-	border: 2px solid aqua;   /* карточки с номерами преимуществ */
-	width: 392px;
-	padding: 40px;
-	
 	box-sizing: border-box;
-	
 }
 
 .second-string-item {
 	border: 2px solid pink;
-	width: 392px;					/*  элемент списка второй строки   */
-	padding: 50px;
+	width: 400px;
+	height: 331px;					/*  элемент списка второй строки   */
+	padding: 55px;
 	margin: 0px;
 	box-sizing: border-box;
 }
@@ -438,7 +447,7 @@ a.main-header-logo {
 .second-string,
 .fourth-string {          
 	display: flex;				/* списки, из которых состоит вторая и четвертая строки основного содержания */
-	border: 2px solid red;
+	border: 0px solid red;  	/* 	Р А М К А		 */
 	justify-content: space-around;
 	width: 1200px;
 	padding: 0px;
@@ -505,4 +514,28 @@ a.main-header-logo {
 .range-bar {				/* div с полоской RANGE */
 	margin-left: auto;
 	height: 217px;
+}
+
+.found-hotel {
+	display: flex;
+	box-sizing: border-box;
+	width: 1200px;
+	padding: 0px 73px;
+	flex-direction: row;
+
+	border: 1px solid aqua;
+}
+
+.stars {
+	margin-left: auto;
+	padding: 0px;
+	
+	border: 1px solid red;
+}
+
+.content-wrapper {
+	width: 1200px;
+	display: flex;				/*div обертка для первой и третьей строк основного содержания  */
+	border: 2px solid green;
+	box-sizing: border-box;
 }

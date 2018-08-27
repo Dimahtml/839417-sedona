@@ -7,48 +7,46 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-  	
-<div class="wrapper">
-    <header class="main-header">
-      <nav class="main-navigation">
-        <a class="main-header-logo"><img src="img/logo-sedona.svg" width="140" height="72" alt="logo"></a>
-        <ul class="site-navigation">
-          <li><a href="info.html">Информация</a></li>
-          <li><a href="foto-video.html">Фото и видео</a></li>
-          <li><a href="map.html">Карта штата</a></li>
-          <li><a href="catalog.html">Гостиницы</a></li>
-        </ul>
-      <nav> 
-    </header>
+  	<div class="wrapper">
+      <header class="main-header">
+        <nav class="main-navigation">
+          <a class="main-header-logo"><img src="img/logo-sedona.svg" width="140" height="72" alt="logo"></a>
+          <ul class="site-navigation">
+            <li><a href="info.html">Информация</a></li>
+            <li><a href="foto-video.html">Фото и видео</a></li>
+            <li><a href="map.html">Карта штата</a></li>
+            <li><a href="catalog.html">Гостиницы</a></li>
+          </ul>
+        <nav> 
+      </header>
 
-  	<main class="container">
-      <div class="bg">
-        <div class="welcome">
-        </div>
-        <div class="mask">
-        </div>
-              <h1 class="visually-hidden">Гостиницы Седоны</h1>
-        <div class="white-bg">       
-        			<p class="header-1">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
-        </div>      
-        <div class="white-bg">
-        			<p class="header-2">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
-        </div>      
-      </div>  		
+    	<main class="container">
+        <div class="bg">
+          <div class="welcome">
+          </div>
+          <div class="mask">
+          </div>
+                <h1 class="visually-hidden">Гостиницы Седоны</h1>
+          <div class="white-bg">       
+          			<p class="header-1">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+          </div>      
+          <div class="white-bg">
+          			<p class="header-2">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+          </div>      
+        </div>  		
       
-  <div class="main-content">
-
-  		  <div class="feature-item">
-  				<h2>Настоящий городок</h2>
-  				<span>— №1 —</span>
-  				<p>Седона — не аттракцион для туристов, там течет своя жизнь</p>        <!-- первая строка основного содержания-->
-        </div>    
-  		  <div class="bg-hotels">	
-  			  <!--  <img src="img/house.jpg">   вставим картинку фоном через CSS -->
-  		  </div>
-      
-  		  				
-   
+        <div class="main-content">
+          <div class="content-wrapper">
+      		  <div class="feature-item">
+      				<h2>Настоящий городок</h2>
+      				<span>— №1 —</span>
+      				<p>Седона — не аттракцион для туристов, там течет своя жизнь</p>        <!-- первая строка основного содержания-->
+            </div>    
+      		  <div class="bg-hotels">	
+      			  <!--  <img src="img/house.jpg">   вставим картинку фоном через CSS -->
+      		  </div>
+          </div>
+    
     			<ul class="second-string">
     				<li class="second-string-item">
     					<h2>Жильё</h2>
@@ -63,19 +61,19 @@
     					<p>Не только китайского, но и местного производства!</p>
     				</li>
     			</ul>
- 
-  		
-  		  <div class="bg-bridge">
-          <!-- <img src="img/bridge.jpg">  вставим картинку фоном через CSS (фоновое изображение моста дьявола) -->
-        </div>
-        <div class="feature-item">
-          <h2>Там есть Мост дьявола</h2>
-  				<span>— №2 —</span>
-  				<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>           <!-- третья строка основного содержания-->
-  			</div>
-    			
-    		   			
-    			<ul class="fourth-string">
+
+          <div class="content-wrapper">
+      		  <div class="bg-bridge">
+              <!-- <img src="img/bridge.jpg">  вставим картинку фоном через CSS (фоновое изображение моста дьявола) -->
+            </div>
+            <div class="feature-item">
+              <h2>Там есть Мост дьявола</h2>
+      				<span>— №2 —</span>
+      				<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>           <!-- третья строка основного содержания-->
+      			</div>
+        	</div>		
+    		   
+          <ul class="fourth-string">
             <li class="feature-item">
               <h2>Небольшая площадь</h2>
     				  <span>— №3 —</span>
@@ -92,9 +90,7 @@
     				  <p>Большинство едет в гранд каньон и толпится там</p>
             </li>  
     			</ul>
-    			
-  </div>
-
+    		</div>
 
     		<div class="interest">
     			<h3>Заинтересовались?</h3>
@@ -124,34 +120,33 @@
             <button type="submit" class="btn">Найти</button>
           </p>
   			</form> 
-  					
+  			
+    		<div class="map">
+          <img src="img/map-small.png" width="1200" height="594">
+        </div>	
 
-  		<div class="map">
-        <img src="img/map-small.png" width="1200" height="594">
-      </div>	
+      </main>
 
-  	</main>
-
-  	<footer class="main-footer">
-      <p class="visit">
-    		<a href="#" class="hashtag">
-    				#visitSEDONA
-    		</a>
-      </p>    
-  		<div class="social">
-        <ul>	
-    			<li><a href="#"><img src="img/twitter.svg" alt="twitter" width="17px" height="15px"></a></li>
-          <li><a href="#"><img src="img/fb-icon.svg" alt="facebook" width="12px" height="22px"></a></li>
-          <li><a href="#"><img src="img/youtube.svg" alt="youtube" width="20px" height="16px"></a></li>
-        </ul>
-  		</div>
-  		<p class="copyright">
-  			<span class="madeby">Website by</span>
-  			<a href="https://htmlacademy.ru/intensive/htmlcss" alt="html academy">
-          <img src="img/logo-htmlacademy.svg" widht="115" height="41" alt="html academy">
-  			</a>   
-  		</p>	
-  	</footer>	
-</div>
+    	<footer class="main-footer">
+        <p class="visit">
+      		<a href="#" class="hashtag">
+      				#visitSEDONA
+      		</a>
+        </p>    
+    		<div class="social">
+          <ul>	
+      			<li><a href="#"><img src="img/twitter.svg" alt="twitter" width="17px" height="15px"></a></li>
+            <li><a href="#"><img src="img/fb-icon.svg" alt="facebook" width="12px" height="22px"></a></li>
+            <li><a href="#"><img src="img/youtube.svg" alt="youtube" width="20px" height="16px"></a></li>
+          </ul>
+    		</div>
+    		<p class="copyright">
+    			<span class="madeby">Website by</span>
+    			<a href="https://htmlacademy.ru/intensive/htmlcss" alt="html academy">
+            <img src="img/logo-htmlacademy.svg" widht="115" height="41" alt="html academy">
+    			</a>   
+    		</p>	
+    	</footer>	
+    </div>
   </body>
 </html>
