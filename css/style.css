@@ -343,9 +343,15 @@ label.form-index {
 			/******************	С Е Т К И	****************/
 
 .wrapper {
-	border: 2px solid brown;     /*  РАМКА  */
+	border: 0px solid brown;     /*  РАМКА  */
 	width: 1200px;
 	margin: 0 auto;
+}
+
+.main-navigation {
+	display: flex;
+	justify-content: center;
+	height: 56px;
 }
 
 .site-navigation {
@@ -356,19 +362,44 @@ label.form-index {
 	margin: auto;
 	padding: 0px;
 	width: 1200px;
-	border: 1px solid red;    /*  граница для построения сетки, потом надо убрать */  
+	border: 0px solid red;    /*  граница для построения сетки, потом надо убрать */  
 	
 	list-style: none;
 	
 }
 
 .site-navigation li {
-	padding: 0px 20px;
-	border: 1px solid black;    /*  граница для построения сетки, потом надо убрать */
+	padding: 0px 0px;
+	border: 0px solid black;    /*  граница для построения сетки, потом надо убрать */
+	width: 300px;
+	box-sizing: border-box;
+}
+
+.site-navigation li:nth-child(1) {
+	text-align: left;
+	padding-left: 73px;
+}
+
+.site-navigation li:nth-child(2) {
+	text-align: left;
+	padding-left: 12px;
+}
+
+.site-navigation li:nth-child(3) {
+	text-align: right;
+	padding-right: 12px;
+}
+
+
+.site-navigation li:nth-child(4) {
+	text-align: right;
+	padding-right: 73px;
 }
 
 a.main-header-logo {
 	padding: 0px;
+	position: absolute;
+	
 }
 
 .bg {
@@ -379,7 +410,8 @@ a.main-header-logo {
 	align-items: center;
 	background-image: url("../img/background-photo.jpg");
 	background-repeat: no-repeat;
-	border: 2px solid blue; /*рамку уберем */
+	box-sizing: border-box;
+	border: 0px solid blue; /*рамку уберем */
 	width: 1200px;
 	height: 717px;
 	
