@@ -7,6 +7,7 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+<div class="wrapper">
 
   	<header class="main-header">
   	  <nav class="main-navigation">
@@ -21,68 +22,75 @@
   	</header>
     
     <main>
+      <div class="bg-inner">
+        <form class="filter" action="https://echo.htmlacademy.ru" method="post">
 
-      <form action="https://echo.htmlacademy.ru" method="post">
-        <fieldset>
-          <legend class="form-header">Инфраструктура:</legend>
-          <ul class="catalog-list">
-            <li> 
-              <label>
-                <input type="checkbox" name="pool" value="pool" checked>Бассейн
-              </label>
-            </li>
-            <li>
-              <label>
-                <input type="checkbox" name="parking" value="parking">Парковка
-              </label>
-            </li>
-            <li>
-              <label>
-                <input type="checkbox" name="wi-fi" value="wi-fi">Wi-Fi
-              </label>
-            </li>
-          </ul>
-        </fieldset>
-        
-        <fieldset>
-          <legend class="form-header">Тип жилья:</legend>
-          <ul class="catalog-list">
-            <li>
-              <label>
-                <input type="checkbox" name="hostel" checked>Гостиница
-              </label>
-            </li>
-            <li>  
-              <label>
-                <input type="checkbox" name="motel" checked>Мотель
-              </label>
-            </li>
-            <li>  
-              <label>
-                <input type="checkbox" name="apartaments" checked>Апартаменты
-              </label>
-            </li>
-          </ul>    
-        </fieldset>
+          <fieldset>
+            <legend class="form-header">Инфраструктура:</legend>
+            <ul class="catalog-list">
+              <li> 
+                <label>
+                  <input type="checkbox" name="pool" value="pool" checked>Бассейн
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="parking" value="parking">Парковка
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="wi-fi" value="wi-fi">Wi-Fi
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          
+          <fieldset>
+            <legend class="form-header">Тип жилья:</legend>
+            <ul class="catalog-list">
+              <li>
+                <label>
+                  <input type="checkbox" name="hostel" checked>Гостиница
+                </label>
+              </li>
+              <li>  
+                <label>
+                  <input type="checkbox" name="motel" checked>Мотель
+                </label>
+              </li>
+              <li>  
+                <label>
+                  <input type="checkbox" name="apartaments" checked>Апартаменты
+                </label>
+              </li>
+            </ul>    
+          </fieldset>
 
-        <label for="cost" class="form-header">
-          Стоимость в сутки (Р):
-        </label>
-        <p class="catalog-list">от 0 до 3000</p>
-        <input type="range" id="cost" name="cost">
-        
-        <button type="submit" value="Показать" class="catalog-btn">Показать</button>
-      </form>
-      
-      <p>
+          <div class="range-bar">
+            <label for="cost" class="form-header">
+              Стоимость в сутки (Р):
+            </label>
+            <p class="catalog-list">от 0 до 3000</p>
+            <div>
+              <input type="range" id="cost" name="cost">
+            </div>
+            <button type="submit" value="Показать" class="catalog-btn">Показать</button>
+            
+          </div>
+            
+        </form>
+      </div>    
+
+   
       <div class="find">
-        <b>Найдено: 3</b> 
+        <b>Найдено: 3</b>
         <span>Сортировка:</span> 
         <a class="sort" href="#">по цене</a>
         <a class="sort" href="#">по типу</a>
         <a class="sort" href="#">по рейтингу</a>               
       </div>
-      </p>
+     
 
       <section class="found-hotel">
         <img src="img/amara.jpg" alt="Amara resort spa" width="135" height="90">
@@ -142,6 +150,6 @@
         </a>   
       </p>  
     </footer>  
-
+</div>
   </body>
 </html>

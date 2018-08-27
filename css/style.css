@@ -192,7 +192,7 @@ label.form-index {
 	font-size: 14px;				/* Список с чек-боксами */
 	line-height: 21px;				/* Бассейн, Парковка, Wi-Fi */
 	color: #ffffff;					/* Гостиница, Мотель, Апартаменты */
-	background-color: #323e44;		
+ /*	background-color: #323e44; */
 	font-weight: 400;
 }
 
@@ -201,13 +201,13 @@ label.form-index {
 	line-height: 21px;
 	font-weight: bold;				/* Инфраструктура, Тип жилья */
 	color: #ffffff;
-	background-color: #323e44;
+	/*background-color: #323e44;*/
 }
 
 .catalog-btn {
 	border-color: #ffffff;
 	color: #ffffff;
-	background-color: #323e44;				/* кнопка ПОКАЗАТЬ */
+	background-color: transparent;/*#323e44;*/				/* кнопка ПОКАЗАТЬ */
 	font-size: 14px;
 	line-height: 21px;
 	text-transform: uppercase;
@@ -217,16 +217,33 @@ label.form-index {
 	border: 2px solid white;
 }
 
+.find {
+	height: 87px;
+	/*padding-top: 30px;*/				/* обертка  (количество найденных отелей) */
+	/*padding-bottom: 0px;*/
+	text-align: center;
+	vertical-align: bottom;
+	padding-left: 72px;
+	border: 1px solid red;
+	margin: 0px;
+}
+
 .find b {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid blue;
 }
 
 .find a,
 .find span {
 	font-size: 12px;
 	line-height: 18px;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid green;
 }
 
 .sort {
@@ -237,8 +254,6 @@ label.form-index {
 .sort:hover {
 	color: #81b3d2;
 }
-
-
 
 .sort,
 .sort:hover {
@@ -470,4 +485,24 @@ a.main-header-logo {
 	border: 0px solid green;   /*  РАМКА  */
 	min-height: 120px;
 	margin: 0px;
+}
+
+.bg-inner {
+	background-image: url("../img/filter-background.jpg");
+	width: 1200px;
+	height: 217px;
+}
+
+.filter {
+	display: flex;
+}
+
+.filter fieldset {
+	border: none;
+	width: 260px;
+}
+
+.range-bar {				/* div с полоской RANGE */
+	margin-left: auto;
+	height: 217px;
 }
