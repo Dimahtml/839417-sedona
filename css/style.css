@@ -40,10 +40,6 @@ a {
 	text-align: center;
 }
 
-ul.site-navigation {					/* Хедер */
-	list-style: none;
-}
-
 .site-navigation a {
 	font-size: 14px; 
 	line-height: 26px;					/* Хедер */
@@ -75,7 +71,7 @@ p.header-2 {
 }
 
 .feature-item h2,				
-.features h2 {
+.second-string h2 {
 	font-size: 21px;
 	line-height: 21px;
 	font-weight: bold;
@@ -98,15 +94,10 @@ div.feature-item p {
 }
 
 .feature-item p,
-.features p {
+.second-string p {
 	font-size: 14px; 
 	line-height: 21px;
 	color: #333333;
-	text-align: center;
-}
-
-.features ul {
-	list-style: none;
 	text-align: center;
 }
 
@@ -116,10 +107,6 @@ div.feature-item {
 
 li.feature-item {
 	background-color: #eeeeee;
-}
-
-.interest {
-	text-align: center;
 }
 
 .interest h3 {
@@ -143,7 +130,7 @@ button.search {
 	text-transform: uppercase;
 	border-style: none;
 	width: 568px;
-	height: 86px;
+	min-height: 86px; 
 }
 
 button.search:hover {
@@ -166,7 +153,7 @@ button.btn {
 	text-transform: uppercase;
 	border-style: none;
 	width: 568px;
-	height: 86px;
+	min-height: 86px;
 }
 
 button.btn:hover {
@@ -317,7 +304,13 @@ label.form-index {
 	opacity: 0.3;
 }
 
-			/*	С Е Т К И	*/
+			/******************	С Е Т К И	****************/
+
+.wrapper {
+	border: 2px solid brown;
+	width: 1200px;
+	margin: 0 auto;
+}
 
 .site-navigation {
 	display: flex;
@@ -328,8 +321,8 @@ label.form-index {
 	padding: 0px;
 	width: 1200px;
 	border: 1px solid red;    /*  граница для построения сетки, потом надо убрать */  
-	margin-left: auto;
-
+	
+	list-style: none;
 	
 }
 
@@ -408,7 +401,7 @@ a.main-header-logo {
 	border: 2px solid aqua;   /* карточки с номерами преимуществ */
 	width: 392px;
 	padding: 40px;
-	margin: 0px;
+	
 	box-sizing: border-box;
 	
 }
@@ -430,4 +423,11 @@ a.main-header-logo {
 	padding: 0px;
 	flex-wrap: nowrap;
 	margin: 0px;
+	list-style: none;
+	text-align: center;
+}
+
+
+.interest {
+	text-align: center;
 }
