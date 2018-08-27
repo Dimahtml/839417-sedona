@@ -343,7 +343,7 @@ label.form-index {
 			/******************	С Е Т К И	****************/
 
 .wrapper {
-	border: 0px solid brown;     /*  РАМКА  */
+	border: 1px solid brown;     /*  РАМКА  */
 	width: 1200px;
 	margin: 0 auto;
 }
@@ -361,7 +361,7 @@ label.form-index {
 	align-items: center;
 	margin: auto;
 	padding: 0px;
-	width: 1200px;
+	
 	border: 0px solid red;    /*  граница для построения сетки, потом надо убрать */  
 	
 	list-style: none;
@@ -412,7 +412,7 @@ a.main-header-logo {
 	background-repeat: no-repeat;
 	box-sizing: border-box;
 	border: 0px solid blue; /*рамку уберем */
-	width: 1200px;
+	
 	height: 717px;
 	
 }
@@ -429,20 +429,20 @@ a.main-header-logo {
 	background-repeat: no-repeat;
 	border: 2px solid orange;
 	height: 60px;
-	min-width: 1200px;
+	
 	vertical-align: bottom;
 }
 
 .white-bg {		
 	background-color: white;						/* Два блока с текстом и белым фоном */
 	border: 2px solid yellow;		/*рамку уберем */
-	min-width: 1200px;
+	
 }
 
 .main-content {
 	display: flex;				/* div для основного содержания главной страницы */
 	flex-wrap: wrap;
-	width: 1200px;
+	
 	border: 3px solid green;	/* рамку убрать */
 	margin: 0px auto;
 }				
@@ -481,7 +481,7 @@ a.main-header-logo {
 	display: flex;				/* списки, из которых состоит вторая и четвертая строки основного содержания */
 	border: 0px solid red;  	/* 	Р А М К А		 */
 	justify-content: space-around;
-	width: 1200px;
+	
 	padding: 0px;
 	flex-wrap: nowrap;
 	margin: 0px;
@@ -530,7 +530,7 @@ a.main-header-logo {
 
 .bg-inner {
 	background-image: url("../img/filter-background.jpg");
-	width: 1200px;
+	
 	height: 217px;
 }
 
@@ -551,7 +551,7 @@ a.main-header-logo {
 .found-hotel {
 	display: flex;
 	box-sizing: border-box;
-	width: 1200px;
+	
 	padding: 0px 73px;
 	flex-direction: row;
 
@@ -566,8 +566,28 @@ a.main-header-logo {
 }
 
 .content-wrapper {
-	width: 1200px;
+	
 	display: flex;				/*div обертка для первой и третьей строк основного содержания  */
 	border: 2px solid green;
 	box-sizing: border-box;
+}
+
+.interest {
+	border: 1px solid green;          /*  RAMKA */
+	height: 291px;
+	padding-top: 55px;				/* блок перед формой */
+	margin-top: 0px;
+	box-sizing: border-box;
+}
+
+.interest h3 {
+	border: 1px solid orange;           /*      R A M K A     */
+	margin-top: 0px;
+	padding: 0px;
+}
+
+.interest p {  
+	border: 1px solid black;     /*   R A M K A    */
+	margin-top: 0px;
+	padding: 0px;
 }
