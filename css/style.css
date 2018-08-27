@@ -427,7 +427,25 @@ a.main-header-logo {
 	text-align: center;
 }
 
-
 .interest {
 	text-align: center;
+}
+
+.main-footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	min-height: 120px;
+}
+
+.visit {
+	width:400px;
+}
+
+.social {
+	width:400px;
+}
+
+.copyright {
+	width:400px;
 }
