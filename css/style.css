@@ -240,8 +240,9 @@ label.form-index {
 	text-align: center;
 	vertical-align: bottom;
 	padding-left: 72px;
-	
 	margin: 0px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #e5e5e5;
 }
 
 .find b {
@@ -535,13 +536,15 @@ a.main-header-logo {
 	box-sizing: border-box;
 	padding: 0px 73px;
 	flex-direction: row;
+	background-color: #ffffff;
+	border-bottom: 1px solid #e5e5e5;
 }
 
 .stars {
 	margin-left: auto;
 	padding: 0px;
-	
-	border: 1px solid red;
+	border: 1px solid red;   		/*  R A M K A     */
+	background-color: #ffffff;
 }
 
 .content-wrapper {
