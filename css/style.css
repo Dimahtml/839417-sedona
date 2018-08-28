@@ -336,18 +336,6 @@ div.social {
 	background-color: white;  
 } 
 
-/*.social:hover {
-	background-color: /*#669ec0; white;
-}  
-
-/*.social:active {
-	background-color: #5496bd;
-}*/
-
-/*.social img:active {
-	opacity: 0.3;
-}*/
-
 .social ul {
 	list-style: none;
 	display: flex;
@@ -362,7 +350,6 @@ div.social {
 			/******************	С Е Т К И	****************/
 
 .wrapper {
-	
 	width: 1200px;
 	margin: 0 auto;
 }
@@ -522,30 +509,8 @@ a.main-header-logo {
 	height: 474px;
 }
 
-
-.visit {
-	width:400px;
-	padding: 0;
-	background-color: #ffffff;
-	margin: 0px;
-}
-
-.social {
-	width:400px;
-	border: 1px solid green;               /* R A M K A*/
-}
-
-.copyright {
-	width:400px;
-	background-color: #ffffff;
-	border: 0px solid green;   /*  РАМКА  */
-	min-height: 120px;
-	margin: 0px;
-}
-
 .bg-inner {
 	background-image: url("../img/filter-background.jpg");
-	
 	height: 217px;
 }
 
@@ -608,27 +573,60 @@ a.main-header-logo {
 	text-align: center;
 }
 
-.social-button {
+				/***		F O O T E R         ***/ 
+
+.visit {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:400px;
+	padding: 0;
+	background-color: #ffffff;
+	margin: 0px;
+}
+
+.social {
+	width:400px;
+}
+
+.copyright {
+	width:400px;
+	background-color: #ffffff;
+	min-height: 120px;
+	margin: 0px;
+}
+
+
+
+.social-button {					
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	width: 46px;
 	height: 48px;
 	background-color: #81b3d2;
-
 }
 
 .social-button:hover,
 .social-button:focus {
-	background-color: /*#669ec0;*/ red;
+	background-color: #669ec0;
 }
-/*
-.social-button:hover path,
-.social-button:focus path {
-  fill: red;
-}*/
 
 .social-button:active {
 	background-color: #5496bd;
-	/*opacity: 0.3;*/
+}
+
+.social-button:active path {
+	fill: #88b6d1;     /* почему это не работает через rgba с прозрачностью???  */
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.copyright a,
+.copyright span {
+	margin: 4px;
 }
