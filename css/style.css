@@ -630,3 +630,11 @@ a.main-header-logo {
 .copyright span {
 	margin: 4px;
 }
+
+.copyright a:hover path{
+	fill: #81b3d2;
+}
+
+.copyright a:active path{
+	fill: #c6c5c5;
+}
