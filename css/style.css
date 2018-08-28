@@ -21,7 +21,7 @@ body {
 	line-height: 21px;
 	text-transform: uppercase;
 	color: #000000;
-	background-color: #ffffff;	
+	background-color: #f2f2f2;	
 }
 
 a {
@@ -38,6 +38,7 @@ a {
 	line-height: 26px;
 	font-weight: bold;
 	text-align: center;
+	background-color: #ffffff;
 }
 
 .site-navigation a {
@@ -471,7 +472,7 @@ a.main-header-logo {
 }
 
 .second-string-item {
-	
+	background-color: #ffffff;
 	width: 400px;
 	height: 331px;					/*  элемент списка второй строки   */
 	padding: 55px;
@@ -488,6 +489,7 @@ a.main-header-logo {
 	margin: 0px;
 	list-style: none;
 	text-align: center;
+
 }
 
 .interest {
@@ -554,6 +556,7 @@ a.main-header-logo {
 	padding-top: 55px;				/* блок перед формой */
 	margin-top: 0px;
 	box-sizing: border-box;
+	background-color: #ffffff;
 }
 
 .interest h3 {
@@ -569,9 +572,11 @@ a.main-header-logo {
 }
 
 .main-form-wrapper {
-	border: 3px dashed red;
+	border: 3px dashed red;    /*   R A M K A  */
 	text-align: center;
+	background-color: #ffffff;
 }
+
 
 				/***		F O O T E R         ***/ 
 
@@ -638,3 +643,4 @@ a.main-header-logo {
 .copyright a:active path{
 	fill: #c6c5c5;
 }
+
