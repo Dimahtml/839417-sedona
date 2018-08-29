@@ -356,6 +356,7 @@ div.social {
 	display: flex;
 	justify-content: center;
 	height: 56px;
+
 }
 
 .site-navigation {
@@ -572,20 +573,22 @@ a.main-header-logo {
 
 .container {
 	position: relative;
+	width: 1200px;
 }
 
 .search-form-wrapper {
-	/*text-align: center;*/
+	
 	position: absolute;
 	bottom: 79px;
-	right: 317px;
+	right: 50%;
+	left: 50%;
 	width: 568px;
-	margin: 0 auto;
+	margin: 0px;
+	margin-left: -284px;   /*  все по центру, как в лекции учили =) */
 	background-color: #ffffff;
 }
 
 .search-form {
-
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
