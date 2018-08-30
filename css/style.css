@@ -84,8 +84,6 @@ p.header-2 {
 	font-weight: bold;
 	color: #000000;
 	text-align: center;
-	
-	border: 1px solid red;   /* RAMKA */
 }
 
 div.feature-item h2,
@@ -100,7 +98,6 @@ div.feature-item p {
 	line-height: 21px;
 	color: #333333;
 	text-align: center;
-	border: 1px solid red;    /* RAMKA */ 
 }
 
 .feature-item p,
@@ -109,15 +106,13 @@ div.feature-item p {
 	line-height: 21px;
 	color: #333333;
 	text-align: center;
-	border: 1px solid red;      /*  RAMKA  */ 
 }
 
 div.feature-item {
 	background-color: #81b3d2;
-	border: 2px solid aqua;   		/* карточки с номерами преимуществ */
 	width: 400px;
-	height: 256px;
-	padding: 40px;
+	height: 256px; 				/* карточки с номерами преимуществ */
+	padding: 45px;
 	min-height: 256px;
 	box-sizing: border-box;
 }
@@ -128,7 +123,6 @@ li.feature-item {
 	padding-top: 50px;				/*  элементы четвертой строки  */
 	padding-left: 67px;      
 	padding-right: 67px; 
-	border: 1px solid blue;    /*  RAMKA  */
 }
 
 
@@ -363,6 +357,7 @@ div.social {
 
 .site-navigation {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-around;		/* список */
 	align-items: center;
@@ -481,6 +476,31 @@ a.main-header-logo {
 	box-sizing: border-box;
 }
 
+.icon-bg-1 {
+	background-image: url(../img/icon-1.svg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	
+	min-height: 76px; 
+}
+
+
+.icon-bg-2 {
+	background-image: url(../img/icon-2.svg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	
+	min-height: 76px; 
+}
+
+.icon-bg-3 {
+	background-image: url(../img/icon-3.svg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	
+	min-height: 76px; 
+}
+
 .second-string,
 .fourth-string {          
 	display: flex;				/* списки, из которых состоит вторая и четвертая строки основного содержания */
@@ -490,7 +510,6 @@ a.main-header-logo {
 	margin: 0px;
 	list-style: none;
 	text-align: center;
-
 }
 
 .interest {
@@ -612,12 +631,26 @@ a.main-header-logo {
 .search-form p:nth-child(1),
 .search-form p:nth-child(2) {
 	width: 460px;
+	position: relative;
 }
 
 .search-form p:nth-child(3),
 .search-form p:nth-child(4) {
 	box-sizing: border-box;
 	width: 229px;
+}
+
+.search-form p:nth-child(1)::after,
+.search-form p:nth-child(2)::after {
+	content: "";
+	position: absolute;
+	background-image: url("../img/calendar.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width: 22px;
+	height: 22px;
+	right: 14px;
+	bottom: 10px;
 }
 
 .search-form p:nth-child(3) {
@@ -643,9 +676,7 @@ a.main-header-logo {
 	border: none;
 	box-sizing: border-box;
 	height: 38px;
-	padding-top: 12px;
-	padding-bottom: 12px;
-	padding-left: 12px;
+	
 	text-transform: uppercase;
 	font-size: 14px;
 	line-height: 26px;
@@ -654,11 +685,18 @@ a.main-header-logo {
 
 .search-big-input {
 	width: 346px;
+	/*padding-top: 12px;*/
+	/*padding-bottom: 12px;*/
+	padding-left: 12px;
 }
 
 .search-small-input {
 	width: 114px;
+	text-align: center;
+	padding: 0px;
 }
+
+
 
 				/***		F O O T E R         ***/ 
 
