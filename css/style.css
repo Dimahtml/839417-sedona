@@ -640,7 +640,7 @@ a.main-header-logo {
 	width: 229px;
 }
 
-.search-form p:nth-child(1)::after,
+/*.search-form p:nth-child(1)::after,
 .search-form p:nth-child(2)::after {
 	content: "";
 	position: absolute;
@@ -651,7 +651,7 @@ a.main-header-logo {
 	height: 22px;
 	right: 14px;
 	bottom: 10px;
-}
+}*/
 
 .search-form p:nth-child(3) {
 	padding-right: 3px;
@@ -696,7 +696,28 @@ a.main-header-logo {
 	padding: 0px;
 }
 
+.calendar-button {
+	position: absolute;
+	left: 428px;
+	top: 8px;
+	width: 21px;
+	height: 22px;
+	padding: 0;
+	background-color: inherit;
+	border-style: none;
+	outline: none;  /* НАСЧЕТ ЭТОГО НЕ УВЕРЕН. НО ИНАЧЕ РЕАЛЬНО НЕ КРАСИВО  */
+}
+.calendar-button path {
+	fill: #cacaca;
+}
 
+.calendar-button:hover path {
+	fill: #000000;
+}
+
+.calendar-button:active path {
+	fill: #81b3d2;
+}
 
 				/***		F O O T E R         ***/ 
 
