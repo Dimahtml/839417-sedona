@@ -79,6 +79,8 @@ p.header-2 {
 
 .feature-item h2,				
 .second-string h2 {
+	display: block;
+	padding: 0 58px; 
 	font-size: 21px;
 	line-height: 21px;
 	font-weight: bold;
@@ -119,13 +121,13 @@ div.feature-item {
 
 li.feature-item {
 	background-color: #eeeeee;
-	height: 256px;
+	width: 400px;
+	min-height: 256px;
+	box-sizing: border-box;
 	padding-top: 50px;				/*  элементы четвертой строки  */
-	padding-left: 67px;      
-	padding-right: 67px; 
+	padding-left: 70px;      
+	padding-right: 70px; 
 }
-
-
 
 .interest p {
 	font-size: 14px;
