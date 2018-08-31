@@ -633,13 +633,14 @@ a.main-header-logo {
 .search-form p:nth-child(1),
 .search-form p:nth-child(2) {
 	width: 460px;
-	position: relative;
+	position: relative;   /* для кнопок-календарей */
 }
 
 .search-form p:nth-child(3),
 .search-form p:nth-child(4) {
 	box-sizing: border-box;
 	width: 229px;
+	position: relative;  /*для кнопок + - */
 }
 
 /*.search-form p:nth-child(1)::after,
@@ -692,6 +693,13 @@ a.main-header-logo {
 	padding-left: 12px;
 }
 
+.searh-big-input:focus {
+	background-color: #ffffff;
+	outline: none;
+	border: 2px solid red;
+
+}
+
 .search-small-input {
 	width: 114px;
 	text-align: center;
@@ -708,7 +716,9 @@ a.main-header-logo {
 	background-color: inherit;
 	border-style: none;
 	outline: none;  /* НАСЧЕТ ЭТОГО НЕ УВЕРЕН. НО ИНАЧЕ РЕАЛЬНО НЕ КРАСИВО  */
+
 }
+
 .calendar-button path {
 	fill: #cacaca;
 }
@@ -720,6 +730,54 @@ a.main-header-logo {
 .calendar-button:active path {
 	fill: #81b3d2;
 }
+
+.minus-button {
+	position: absolute;
+	left: 126px;
+	top: 10px;
+	padding: 0px;
+	padding-bottom: 2px;
+	width: 18px;
+	height: 18px;
+	color: #a9a9a9;
+	background-color: inherit;
+	font-size: 18px;
+	line-height: 0px; /* это как-то странно работает, оттестить в разных браузерах! */
+	font-weight: bold;
+	border-style: none;
+	outline: none;
+}
+
+.plus-button {
+	position: absolute;
+	left: 198px;
+	top: 10px;
+	padding: 0px;
+	padding-bottom: 2px;
+	width: 18px;
+	height: 18px;
+	color: #a9a9a9;
+	background-color: inherit;
+	font-size: 18px;
+	line-height: 0px; /* это как-то странно работает, оттестить в разных браузерах! */
+	font-weight: bold;
+	border-style: none;
+	box-sizing: border-box;
+	outline: none;
+}
+
+.minus-button:hover,
+.plus-button:hover/*, 
+.minus-button:focus,     
+.plus-button:focus*/ {
+	color: #000000;
+}
+
+.minus-button:active,
+.plus-button:active {
+	color: #81b3d2;
+}
+
 
 				/***		F O O T E R         ***/ 
 
