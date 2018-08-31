@@ -666,10 +666,10 @@ a.main-header-logo {
 	padding-left: 12px;
 }
 
-.searсh-big-input:focus {
+.search-big-input:focus {
 	background-color: #ffffff;
 	outline: none;
-	border: 2px solid red;
+	border: 2px solid #e5e5e5;
 
 }
 
@@ -762,13 +762,6 @@ a.main-header-logo {
 	border-bottom: 1px solid #e5e5e5;
 }
 
-.stars {
-	margin-left: auto;
-	padding: 0px;
-	border: 1px solid red;   		/*  R A M K A     */
-	background-color: #ffffff;
-}
-
 .name-hotel {
 	display: flex;
 	flex-direction: row;
@@ -798,6 +791,7 @@ a.main-header-logo {
 	margin-right: 6px;
 	margin-bottom: 10px;
 	min-width: 110px;
+	color: #333333;
 }
 
 .link-blue,
@@ -823,6 +817,43 @@ a.main-header-logo {
 	height: 27px;
 	box-sizing: border-box;	
 }
+
+.stars {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-left: auto;
+	padding: 0px;
+	background-color: #ffffff;
+	font-size: 14px;
+	line-height: 21px;
+	color: #666666;
+}
+
+.stars-span {
+	height: 18px;
+	width: 18px;
+	background-image: url(../img/star.svg);
+}
+
+.four-stars {
+	width: 72px;
+}
+
+.three-stars {
+	width: 54px;
+}
+
+.two-stars {
+	width: 36px;
+}
+
+.rating-span {
+	background-color: #f2f2f2;
+	padding: 5px 10px;
+}
+
 
 				/***		F O O T E R         ***/ 
 
