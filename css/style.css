@@ -228,11 +228,11 @@ button.btn:active {
 
 .find {
 	display: flex;
+	align-items: center;
 	padding-top: 0px;				/* обертка  (количество найденных отелей) */
 	padding-bottom: 0px;
-	text-align: center;
-	vertical-align: bottom;
 	padding-left: 72px;
+	padding-right: 72px;
 	margin: 0px;
 	background-color: #ffffff;
 	border-bottom: 1px solid #e5e5e5;
@@ -246,8 +246,6 @@ button.btn:active {
 	margin-right: 33px;
 	margin-bottom: 30px;
 	padding: 0px;
-	
-
 }
 
 .find a,
@@ -259,12 +257,11 @@ button.btn:active {
 	margin-bottom: 30px;
 	margin-left: 16px;
 	padding: 0px;
-		
 }
 
-.find span:last-child {
+.find div {
 	margin-left: auto;
-	margin-right: 73px;
+	padding: 0 0;
 }
 
 
@@ -751,6 +748,28 @@ a.main-header-logo {
 	color: #81b3d2;
 }
 							/*** 	C A T A L O G . H T M L 	***/
+
+.triangle-up,
+.triangle-down {
+	background-color: transparent;
+	border: none; 
+}
+
+.triangle-up path,
+.triangle-down path {
+	fill: #cacaca;
+}
+
+.triangle-up path:hover,
+.triangle-down path:hover {
+	fill: #231f20;
+}
+
+.triangle-up path:active,
+.triangle-down path:active {
+	fill: #81b3d2;
+}
+
 .found-hotel {
 	display: flex;
 	/*align-items: center;*/
