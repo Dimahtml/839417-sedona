@@ -510,17 +510,7 @@ a.main-header-logo {
 	height: 474px;
 }
 
-.bg-inner {
-	background-image: url("../img/filter-background.jpg");
-	height: 217px;
-}
 
-
-
-.range-bar {				/* div с полоской RANGE */
-	margin-left: auto;
-	height: 217px;
-}
 
 
 
@@ -734,6 +724,130 @@ a.main-header-logo {
 	color: #81b3d2;
 }
 							/*** 	C A T A L O G . H T M L 	***/
+
+.bg-inner {
+	background-image: url("../img/filter-background.jpg");
+	min-height: 217px;
+}
+
+.range-bar {				
+	margin-left: auto;
+	margin-right: 70px;
+	padding-top: 30px;
+	width: 330px;
+  	color: #ffffff;
+  	text-transform: uppercase;
+}
+
+.filter-range-title {
+  	margin-bottom: 9px;
+  	font-weight: bold;
+  	font-size: 16px;
+  	line-height: 21px;
+}
+
+.price-controls {
+	position: relative;
+	height: 36px;
+	margin-bottom: 20px;
+	border: 2px solid #ffffff;
+	border-radius: 2px;
+	font-size: 0;
+}
+
+.price-controls::after {
+	content: "";
+	position: absolute;
+	width: 2px;
+  	height: 22px;
+	background: #ffffff;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.price-controls label {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 38px;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+.price-controls .min-price,
+.price-controls .max-price {
+	width: 90px;
+	padding-left: 65px;
+}
+
+.price-controls input {
+	width: 50px;
+	margin: 0;
+	color: inherit;
+	font: inherit;
+	background: none;
+	border: none;
+}
+
+.range-controls {
+	position: relative;
+	margin-bottom: 32px;
+}
+
+.range-controls .scale {
+	height: 2px;
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.range-controls .bar {
+	width: 80%;
+	height: 2px;
+	background: #ffffff;
+}
+
+.range-toggle {
+	position: absolute;
+	top: -9px;
+	width: 4px;
+	height: 4px;
+	background: #ababab;
+	border: 8px solid #ffffff;
+	border-radius: 50%;
+  	box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  	cursor: pointer;
+}
+
+.range-toggle-min {
+	left: 0;
+}
+
+.range-toggle-max {
+	left: 80%;
+}
+
+.range-toggle:hover {
+  background: #1c4f80;
+}
+
+.btn-transparent {
+	display: block;
+	margin: 0 auto;
+	padding: 6px 35px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #ffffff;
+	text-transform: uppercase;
+	background: transparent;
+	border: 2px solid #ffffff;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.btn-transparent:hover {
+	color: #000000;
+	background: #ffffff;
+}
+
 .filter {
 	display: flex;
 }
