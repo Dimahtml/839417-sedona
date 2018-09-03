@@ -451,33 +451,28 @@ a.main-header-logo {
 	width: 400px;
 	height: 331px;					/*  элемент списка второй строки   */
 	padding: 55px;
+	padding-top: 132px;
 	margin: 0px;
 	box-sizing: border-box;
 }
 
-.icon-bg-1 {
+.icon-1 {
 	background-image: url(../img/icon-1.svg);
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	
-	min-height: 76px; 
+	background-position: 50% 55px;
 }
 
 
-.icon-bg-2 {
+.icon-2 {
 	background-image: url(../img/icon-2.svg);
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	
-	min-height: 76px; 
+	background-position: 50% 55px;
 }
 
-.icon-bg-3 {
+.icon-3 {
 	background-image: url(../img/icon-3.svg);
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	
-	min-height: 76px; 
+	background-position: 50% 55px;
 }
 
 .second-string,
