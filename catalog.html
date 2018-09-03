@@ -62,42 +62,27 @@
             </ul>    
           </fieldset>
         
-        
- <!--  <div class="range-bar">
-            <label for="cost" class="form-header">
+          <div class="range-bar">
+            <div class="filter-range-title">
               Стоимость в сутки (Р):
-            </label>
-            <p class="catalog-list">от 0 до 3000</p>
-            <div>
-              <input type="range" id="cost" name="cost">
             </div>
-            <button type="submit" value="Показать" class="catalog-btn">Показать</button>
+            <div class="price-controls">
+              <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+              <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+            </div>
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar">
+                </div>
+              </div>
+              <div class="range-toggle range-toggle-min">
+              </div>
+              <div class="range-toggle range-toggle-max">
+              </div>
+            </div>
+            <button class="btn-transparent" type="submit">Показать</button>
           </div>
-            
         </form>
-      </div>    -->
-
-      <div class="range-bar">
-        <div class="filter-range-title">
-          Стоимость в сутки (Р):
-        </div>
-        <div class="price-controls">
-          <label class="min-price">от <input type="text" name="min-price" value="0"></label>
-          <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
-        </div>
-        <div class="range-controls">
-          <div class="scale">
-            <div class="bar">
-            </div>
-          </div>
-          <div class="range-toggle range-toggle-min">
-          </div>
-          <div class="range-toggle range-toggle-max">
-          </div>
-        </div>
-        <button class="btn-transparent" type="submit">Показать</button>
-      </div>
-</form>
       </div>
 
       <div class="find">
@@ -125,9 +110,10 @@
           <a href="#" class="link-brown">Забронировать</a>
         </div>
         <div class="stars">
-          <span class="stars-span four-stars"></span>  
+          <span class="stars-span four-stars" aria-label="32444"></span>  
           <span class="rating-span">
             Рейтинг: 8,5
+          </span>  
         </div>
       </section>
 
@@ -143,6 +129,7 @@
           <span class="stars-span three-stars"></span>  
           <span class="rating-span">
             Рейтинг: 8,9
+          </span>  
         </div>
       </section>
 
