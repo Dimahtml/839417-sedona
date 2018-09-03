@@ -505,6 +505,12 @@ a.main-header-logo {
 	background-color: #ffffff;
 }
 
+.opacity-footer {
+	position: relative;
+	z-index: 1;
+	opacity: 0.9;
+}
+
 .map {
 	border: 0px solid black;	/*   РАМКА   */ 
 	height: 474px;
@@ -636,6 +642,7 @@ a.main-header-logo {
 	width: 346px;
 	/*padding-top: 12px;*/
 	/*padding-bottom: 12px;*/
+	padding-right: 42px;
 	padding-left: 12px;
 }
 
@@ -649,7 +656,7 @@ a.main-header-logo {
 .search-small-input {
 	width: 114px;
 	text-align: center;
-	padding: 0px;
+	padding: 0px 36px;
 }
 
 .calendar-button {
