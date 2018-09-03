@@ -499,6 +499,7 @@ a.main-header-logo {
 	display: flex;
 	flex-direction: row;
 	margin: 0px;
+	margin-top: -120px;
 	padding: 0px;
 	min-height: 120px;
 	border: 0px solid red;		/*     Р А М К А   */
@@ -513,7 +514,10 @@ a.main-header-logo {
 
 .map {
 	border: 0px solid black;	/*   РАМКА   */ 
-	height: 474px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 0px;
+	line-height: 0px;
 }
 
 
@@ -554,9 +558,8 @@ a.main-header-logo {
 }
 
 .search-form-wrapper {
-	
 	position: absolute;
-	bottom: 79px;
+	bottom: 198px;
 	right: 50%;
 	left: 50%;
 	width: 568px;
@@ -924,10 +927,12 @@ input[type="checkbox"] {
 	clip: rect(0 0 0 0);
 }
 
-.triangle-up,
-.triangle-down {
+a.triangle-up,
+a.triangle-down {
 	background-color: transparent;
-	border: none; 
+	border: none;
+	margin: 0px;
+	margin-left: 12px;
 }
 
 .triangle-up path,
