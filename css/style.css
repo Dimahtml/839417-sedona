@@ -196,14 +196,7 @@ button.btn:active {
 	line-height: 26px;
 }
 
-.catalog-list {
-	list-style: none;
-	font-size: 14px;				/* Список с чек-боксами */
-	line-height: 21px;				/* Бассейн, Парковка, Wi-Fi */
-	color: #ffffff;					/* Гостиница, Мотель, Апартаменты */
- /*	background-color: #323e44; */
-	font-weight: 400;
-}
+
 
 .form-header {
 	font-size: 16px;
@@ -522,14 +515,7 @@ a.main-header-logo {
 	height: 217px;
 }
 
-.filter {
-	display: flex;
-}
 
-.filter fieldset {
-	border: none;
-	width: 260px;
-}
 
 .range-bar {				/* div с полоской RANGE */
 	margin-left: auto;
@@ -748,6 +734,74 @@ a.main-header-logo {
 	color: #81b3d2;
 }
 							/*** 	C A T A L O G . H T M L 	***/
+.filter {
+	display: flex;
+}
+
+.filter fieldset {
+	border: none;
+	width: 260px;
+	padding: 0px;
+}
+
+legend.form-header {
+	padding-top: 30px;
+	padding-left: 72px;
+	margin-bottom:25px;
+}							
+
+ul.catalog-list {
+	list-style: none;
+	font-size: 14px;				/* Список с чек-боксами */
+	line-height: 21px;				/* Бассейн, Парковка, Wi-Fi */
+	color: #ffffff;					/* Гостиница, Мотель, Апартаменты */
+ /*	background-color: #323e44; */
+	font-weight: 400;
+	padding: 0px;
+	margin: 0px;
+}	
+
+.catalog-list li {
+	padding-left: 112px;
+	margin-bottom: 30px;
+}				
+
+.catalog-list label {
+	position: relative;
+	display: block;
+	cursor: pointer;
+	user-select: none;
+}		
+
+.catalog-list input + label::before {
+	content: "";
+	position: absolute;
+	width: 23px;
+	height: 23px;
+	left: -40px;
+	top: 0px;
+	background-image: url(../img/checkbox-off.svg);
+	background-repeat: no-repeat;
+}
+
+.catalog-list input:checked + label::before {
+	content: "";
+	position: absolute;
+	width: 26px;
+	height: 23px;
+	background-image: url(../img/checkbox-on.svg);
+	background-repeat: no-repeat;
+}
+
+
+input[type="checkbox"] {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+}
 
 .triangle-up,
 .triangle-down {
