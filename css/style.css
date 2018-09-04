@@ -277,26 +277,12 @@ button.btn:active {
 	border-bottom: none;
 }
 
-
-
-
-.name-hotel a:hover {
-	color: *#81b3d2;
-}
-
-.name-hotel a:active {
-	color: rgba(0,0,0,0.3);
-}
-
 .stars {
 	font-size: 14px;
 	line-height: 21px;
 	color: #666666;
 	background-color: #f2f2f2;
 }
-
-
-
 
 
 div.social {
@@ -968,7 +954,8 @@ a.triangle-down {
 	min-width: 260px;
 }
 
-.name-hotel-link:hover {
+.name-hotel-link:hover,
+.name-hotel-link:focus {
 	color: #81b3d2;
 }
 
@@ -1007,11 +994,31 @@ a.triangle-down {
 	margin-right: 6px;
 }
 
+.link-blue:hover,
+.link-blue:focus {
+	background-color: #669ec0;
+}
+
+.link-blue:active {
+	background-color: #5496bd;
+	color: rgba(255,255,255,0.3);
+}
+
 .link-brown {
 	background-color: #766357;
 	width: 142px;
 	height: 27px;
 	box-sizing: border-box;	
+}
+
+.link-brown:hover,
+.link-brown:focus {
+	background-color: #604e43;
+}
+
+.link-brown:active {
+	background-color: #503e33;
+	color: rgba(255,255,255,0.3);
 }
 
 .stars {
