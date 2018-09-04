@@ -1044,18 +1044,19 @@ a.triangle-down {
 	height: 18px;
 	width: 18px;
 	background-image: url(../img/star.svg);
+	background-repeat: space;
 }
 
 .four-stars {
-	width: 72px;
+	width: 88px;
 }
 
 .three-stars {
-	width: 54px;
+	width: 65px;
 }
 
 .two-stars {
-	width: 36px;
+	width: 42px;
 }
 
 .rating-span {
