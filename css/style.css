@@ -51,9 +51,15 @@ a {
 	color: #81b3d2;
 }
 
-.site-navigation a:active {				/* Хедер */
+.site-navigation a:active {
+											/* Хедер */
 	color: #000000;
 	opacity: 0.3;
+}
+
+.active {
+	color: #766357;
+	font-weight: bold;
 }
 
 p.header-1 {
