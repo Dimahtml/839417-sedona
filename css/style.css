@@ -278,12 +278,7 @@ button.btn:active {
 }
 
 
-.name-hotel h3 {
-	font-size: 21px;
-	line-height: 26px;
-	font-weight: bold;
-	color: #000000;
-}
+
 
 .name-hotel a:hover {
 	color: *#81b3d2;
@@ -963,11 +958,23 @@ a.triangle-down {
 }	
 
 .name-hotel h3 {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #000000;
 	margin: 0;
 	margin-top: -5px;
-	margin-bottom: 0px;
 	display: block;
 	min-width: 260px;
+}
+
+.name-hotel-link:hover {
+	color: #81b3d2;
+}
+
+.name-hotel-link:active {
+	color: #000000;
+	opacity: 0.3;
 }
 
 .name-hotel a {
