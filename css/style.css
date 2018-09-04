@@ -315,10 +315,10 @@ div.social {
 }
 
 .main-navigation {
+	position: relative;
 	display: flex;
 	justify-content: center;
 	height: 56px;
-
 }
 
 .site-navigation {
@@ -364,6 +364,7 @@ div.social {
 a.main-header-logo {
 	padding: 0px;
 	position: absolute;
+	left: 530px;
 	z-index: 2;
 }
 
