@@ -577,7 +577,8 @@ a.main-header-logo {
 	display: flex;
 	justify-content: space-between;
 	box-sizing: border-box;
-	
+	margin-top: 0px;
+	margin-bottom: 0px;	
 }
 
 .search-form p:nth-child(1),
