@@ -374,6 +374,7 @@ a.main-header-logo {
 	justify-content: flex-end;
 	margin: 0px auto;
 	align-items: center;
+	background-color: #d5e6f0;
 	background-image: url("../img/background-photo2.jpg");
 	background-repeat: no-repeat;
 	box-sizing: border-box;
@@ -381,21 +382,21 @@ a.main-header-logo {
 	
 }
 
-.welcome {
+/*.welcome {
 	background-image: url("../img/intro-welcome.svg");
 	border: 2px dashed white;		/*рамку уберем */					/* Welcome */
-	min-height: 353px;
+/*	min-height: 353px;
 	min-width: 459px;
 }
 
 .mask {
 	background-image: url("../img/intro-mask.svg");        /* Маска */ 
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;
 	
 	height: 60px;
 	width: 100%;
 	vertical-align: bottom;
-}
+}*/
 
 .white-bg {		
 	background-color: white;						/* Два блока с текстом и белым фоном */
@@ -416,7 +417,7 @@ a.main-header-logo {
 .bg-hotels {
 	width: 800px;
 	height: 256px;
-									/* РАМКУ убрать */
+	background-color: #99765f;								
 	background-image: url("../img/house.jpg");
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -426,7 +427,7 @@ a.main-header-logo {
 .bg-bridge {
 	width: 800px;
 	height: 256px;
-											/* РАМКУ убрать */
+	background-color: #724739;										
 	background-image: url("../img/bridge.jpg");
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -444,6 +445,7 @@ a.main-header-logo {
 }
 
 .icon-1 {
+	background-color: #ffffff;
 	background-image: url(../img/icon-1.svg);
 	background-repeat: no-repeat;
 	background-position: 50% 55px;
@@ -451,12 +453,14 @@ a.main-header-logo {
 
 
 .icon-2 {
+	background-color: #ffffff;
 	background-image: url(../img/icon-2.svg);
 	background-repeat: no-repeat;
 	background-position: 50% 55px;
 }
 
 .icon-3 {
+	background-color: #ffffff;
 	background-image: url(../img/icon-3.svg);
 	background-repeat: no-repeat;
 	background-position: 50% 55px;
@@ -714,6 +718,7 @@ a.main-header-logo {
 							/*** 	C A T A L O G . H T M L 	***/
 
 .bg-inner {
+	background-color: #464e54;
 	background-image: url("../img/filter-background.jpg");
 	min-height: 217px;
 }
