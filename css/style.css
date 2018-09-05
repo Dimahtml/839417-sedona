@@ -557,11 +557,10 @@ a.main-header-logo {
 .search-form-wrapper {
 	position: absolute;
 	bottom: 198px;
-	right: 50%;
-	left: 50%;
+	left: 316px;
 	width: 568px;
 	margin: 0px;
-	margin-left: -284px;   /*  все по центру, как в лекции учили =) */
+	   
 	background-color: #ffffff;
 }
 
@@ -578,7 +577,7 @@ a.main-header-logo {
 	display: flex;
 	justify-content: space-between;
 	box-sizing: border-box;
-	margin: 0px;
+	
 }
 
 .search-form p:nth-child(1),
@@ -622,6 +621,7 @@ a.main-header-logo {
 	line-height: 26px;
 	font-weight: bold;
 	padding-top: 5px;
+	margin-right: 15px;
 }
 
 .search-big-input,
@@ -639,6 +639,7 @@ a.main-header-logo {
 
 .search-big-input {
 	width: 346px;
+	box-sizing: border-box;
 	/*padding-top: 12px;*/
 	/*padding-bottom: 12px;*/
 	padding-right: 42px;
@@ -649,13 +650,13 @@ a.main-header-logo {
 	background-color: #ffffff;
 	outline: none;
 	border: 2px solid #e5e5e5;
-
 }
 
 .search-small-input {
 	width: 114px;
 	text-align: center;
 	padding: 0px 36px;
+	margin-left: 14px;
 }
 
 .calendar-button {
