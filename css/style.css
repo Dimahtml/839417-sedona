@@ -69,7 +69,7 @@ p.header-1 {
 	font-weight: bold;
 	margin-top: 0px;
 	margin-right: 370px;
-	margin-bottom: 24px; 
+	margin-bottom: 29px; 
 	margin-left: 370px;
 	color: #000000;
 }
@@ -94,6 +94,16 @@ p.header-2 {
 	text-align: center;
 }
 
+.feature-item h2 {
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+
+.second-string h2 {
+	margin-top: 28px;
+	margin-bottom: 25px;
+}	
+
 div.feature-item h2,
 div.feature-item span,		/* преимущества  N1  и  N2 */
 div.feature-item p {
@@ -116,6 +126,10 @@ div.feature-item p {
 	text-align: center;
 }
 
+.feature-item p {
+	margin-top: 22px;
+}
+
 div.feature-item {
 	background-color: #81b3d2;
 	width: 400px;
@@ -130,7 +144,7 @@ li.feature-item {
 	width: 400px;
 	min-height: 256px;
 	box-sizing: border-box;
-	padding-top: 50px;				/*  элементы четвертой строки  */
+	padding-top: 46px;				/*  элементы четвертой строки  */
 	padding-left: 70px;      
 	padding-right: 70px; 
 }
@@ -515,7 +529,7 @@ a.main-header-logo {
 .interest {
 	         /*  RAMKA */
 	height: 291px;
-	padding-top: 55px;				/* блок, стоящий перед перед формой */
+	padding-top: 49px;				/* блок, стоящий перед перед формой */
 	margin-top: 0px;
 	box-sizing: border-box;
 	background-color: #ffffff;
@@ -526,6 +540,7 @@ a.main-header-logo {
 	line-height: 36px;
 	font-weight: bold;
 	margin-top: 0px;
+	margin-bottom: 24px;
 	padding: 0px;
 }
 
@@ -554,7 +569,6 @@ a.main-header-logo {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-content: space-between;
 	min-height: 395px;
 	box-sizing: border-box;
 	padding: 55px;
