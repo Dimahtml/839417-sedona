@@ -265,7 +265,7 @@ button.btn:active {
 .find span {
 	font-size: 12px;
 	line-height: 18px;
-	margin-top: 37px;
+	margin-top: 36px;
 	margin-right: 16px;
 	margin-bottom: 30px;
 	margin-left: 16px;
@@ -740,8 +740,8 @@ a.main-header-logo {
 .range-bar {				
 	margin-left: auto;
 	margin-right: 70px;
-	padding-top: 30px;
-	width: 330px;
+	padding-top: 28px;
+	width: 320px;
   	color: #ffffff;
   	text-transform: uppercase;
 }
@@ -755,7 +755,7 @@ a.main-header-logo {
 
 .price-controls {
 	position: relative;
-	height: 36px;
+	height: 32px;
 	margin-bottom: 20px;
 	border: 2px solid #ffffff;
 	border-radius: 2px;
@@ -776,7 +776,7 @@ a.main-header-logo {
 .price-controls label {
 	display: inline-block;
 	font-size: 14px;
-	line-height: 38px;
+	line-height: 30px;
 	vertical-align: top;
 	cursor: pointer;
 }
@@ -861,12 +861,12 @@ a.main-header-logo {
 
 .filter fieldset {
 	border: none;
-	width: 260px;
+	width: 251px;
 	padding: 0px;
 }
 
 legend.form-header {
-	padding-top: 30px;
+	padding-top: 27px;
 	padding-left: 72px;
 	margin-bottom:25px;
 }							
@@ -883,8 +883,8 @@ ul.catalog-list {
 }	
 
 .catalog-list li {
-	padding-left: 112px;
-	margin-bottom: 30px;
+	padding-left: 110px;
+	margin-bottom: 24px;
 }				
 
 .catalog-list label {
@@ -951,8 +951,8 @@ a.triangle-down {
 	display: flex;
 	/*align-items: center;*/
 	box-sizing: border-box;
-	min-height: 152px;
-	padding: 31px 73px;
+	min-height: 150px;
+	padding: 30px 73px;
 	flex-direction: row;
 	background-color: #ffffff;
 	border-bottom: 1px solid #e5e5e5;
