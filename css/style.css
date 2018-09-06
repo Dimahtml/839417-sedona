@@ -913,6 +913,14 @@ ul.catalog-list {
 	background-repeat: no-repeat;
 }
 
+.catalog-list input:disabled + label::before {
+	background-image: url(../img/checkbox-off-grey.svg);
+}
+
+
+.catalog-list input:checked:disabled + label::before {
+	background-image: url(../img/checkbox-on-grey.svg);
+}
 
 input[type="checkbox"] {
 	position: absolute;
