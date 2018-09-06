@@ -188,7 +188,7 @@ button.btn {
 	border-style: none;
 	width: 458px;
 	min-height: 58px;
-	margin-top: auto;
+	margin-top: 25px;
 }
 
 button.btn:hover {
@@ -303,11 +303,6 @@ button.btn:active {
 	color: #666666;
 	background-color: #f2f2f2;
 }
-
-
-div.social {
-	background-color: white;  
-} 
 
 .social ul {
 	list-style: none;
@@ -508,7 +503,7 @@ a.main-header-logo {
 .opacity-footer {
 	position: relative;
 	z-index: 1;
-	opacity: 0.9;
+	background-color: rgba(255,255,255,0.9);
 	margin-top: -120px;
 }
 
@@ -568,6 +563,7 @@ a.main-header-logo {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	align-content: space-between;
 	min-height: 395px;
 	box-sizing: border-box;
 	padding: 55px;
@@ -578,7 +574,7 @@ a.main-header-logo {
 	justify-content: space-between;
 	box-sizing: border-box;
 	margin-top: 0px;
-	margin-bottom: 0px;	
+	margin-bottom: 29px;	
 }
 
 .search-form p:nth-child(1),
@@ -741,9 +737,9 @@ a.main-header-logo {
 
 .range-bar {				
 	margin-left: auto;
-	margin-right: 70px;
+	margin-right: 72px;
 	padding-top: 28px;
-	width: 320px;
+	width: 318px;
   	color: #ffffff;
   	text-transform: uppercase;
 }
@@ -786,7 +782,7 @@ a.main-header-logo {
 .price-controls .min-price,
 .price-controls .max-price {
 	width: 90px;
-	padding-left: 65px;
+	padding-left: 62px;
 }
 
 .price-controls input {
@@ -841,7 +837,8 @@ a.main-header-logo {
 .btn-transparent {
 	display: block;
 	margin: 0 auto;
-	padding: 6px 35px;
+	margin-left: 84px;
+	padding: 6px 35px 6px 35px;
 	font-size: 14px;
 	line-height: 20px;
 	color: #ffffff;
@@ -1083,7 +1080,7 @@ a.triangle-down {
 
 .rating-span {
 	background-color: #f2f2f2;
-	padding: 5px 10px;
+	padding: 3px 12px 3px 15px;
 }
 
 
@@ -1095,22 +1092,12 @@ a.triangle-down {
 	align-items: center;
 	width:400px;
 	padding: 0;
-	background-color: #ffffff;
 	margin: 0px;
 }
 
 .social {
 	width:400px;
 }
-
-.copyright {
-	width:400px;
-	background-color: #ffffff;
-	min-height: 120px;
-	margin: 0px;
-}
-
-
 
 .social-button {					
 	display: flex;
@@ -1138,6 +1125,9 @@ a.triangle-down {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width:400px;
+	min-height: 120px;
+	margin: 0px;
 }
 
 .copyright a,
