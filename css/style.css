@@ -907,6 +907,55 @@ ul.catalog-list {
 	background-image: url(../img/checkbox-off.svg);
 	background-repeat: no-repeat;
 }
+/*
+.catalog-list input + label::before path {
+	fill: #ff0000;
+}*/
+/* ---------------------------------- переделываю чек - боксы ---------------------------------------------------*/
+.input-1 ~ svg.checkbox-on /*path*/ {    /* включенный ЧБ прозрачный  */
+	/*fill: transparent;*/
+	display: none;
+}
+
+.input-1 ~ svg.checkbox-off /*path*/ {  /*  выключенный ЧБ отрисовыватся белым */
+	/*fill: #ffffff;*/
+	display: block;
+}
+
+.input-1:checked ~ svg.checkbox-on /*path*/ {  
+	/*fill: #ffffff;*/
+	display: block;
+}
+
+.input-1:checked ~ svg.checkbox-off path {
+	fill: transparent;
+}
+
+.input-1:checked:disabled ~ svg.checkbox-on path {
+	fill: grey;
+}
+
+.input-1:disabled ~ svg.checkbox-off path {
+	fill: grey;
+}
+
+.checkbox-on,
+.checkbox-off {
+	position: absolute;
+}
+
+li.li-1 {
+	padding-left: 72px;
+}
+
+.label-1 {
+	padding-left: 38px;
+	margin-left: 0px;
+}
+
+
+
+
 
 .catalog-list input:checked + label::before {
 	content: "";
