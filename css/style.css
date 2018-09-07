@@ -2,15 +2,14 @@
 	font-family: "PT Sans";
 	src:
 	url("../fonts/ptsans.woff2") format("woff2"),
-    url("../fonts/ptsans.woff") format("woff");
- 		
+	url("../fonts/ptsans.woff") format("woff");
 }
 
 @font-face {
 	font-family: "PT Sans";
-	src: 
+	src:
 	url("../fonts/ptsansbold.woff2") format("woff2"),
-	url("../fonts/ptsansbold.woff") format("woff"); 
+	url("../fonts/ptsansbold.woff") format("woff");
 	font-weight:bold;
 }
 
@@ -22,7 +21,7 @@ body {
 	line-height: 21px;
 	text-transform: uppercase;
 	color: #000000;
-	background-color: #f2f2f2;	
+	background-color: #f2f2f2;
 }
 
 a {
@@ -53,7 +52,6 @@ a {
 }
 
 .site-navigation a:active {
-											/* Хедер */
 	color: #000000;
 	opacity: 0.3;
 }
@@ -65,18 +63,18 @@ a {
 
 p.header-1 {
 	text-align: center;
-	font-size: 21px;				/* Седона - небольшой городок... */
+	font-size: 21px;
 	line-height: 26px;
 	font-weight: bold;
 	margin-top: 0px;
 	margin-right: 370px;
-	margin-bottom: 29px; 
+	margin-bottom: 29px;
 	margin-left: 370px;
 	color: #000000;
 }
 
 p.header-2 {
-	text-align: center;				/* Рассмотрим пять причин... */
+	text-align: center;
 	font-size: 14px;
 	line-height: 26px;
 	margin-top: 0px;
@@ -84,10 +82,10 @@ p.header-2 {
 	color: #333333;
 }
 
-.feature-item h2,				
+.feature-item h2,
 .second-string h2 {
 	display: block;
-	padding: 0 58px; 
+	padding: 0 58px;
 	font-size: 21px;
 	line-height: 21px;
 	font-weight: bold;
@@ -103,10 +101,10 @@ p.header-2 {
 .second-string h2 {
 	margin-top: 28px;
 	margin-bottom: 25px;
-}	
+}
 
 div.feature-item h2,
-div.feature-item span,		/* преимущества  N1  и  N2 */
+div.feature-item span,
 div.feature-item p {
 	color: white;
 }
@@ -134,7 +132,7 @@ div.feature-item p {
 div.feature-item {
 	background-color: #81b3d2;
 	width: 400px;
-	height: 256px; 				/* карточки с номерами преимуществ */
+	height: 256px;				/* карточки с номерами преимуществ */
 	padding: 45px;
 	min-height: 256px;
 	box-sizing: border-box;
@@ -146,8 +144,8 @@ li.feature-item {
 	min-height: 256px;
 	box-sizing: border-box;
 	padding-top: 46px;				/*  элементы четвертой строки  */
-	padding-left: 70px;      
-	padding-right: 70px; 
+	padding-left: 70px;
+	padding-right: 70px;
 }
 
 .interest p {
@@ -176,7 +174,6 @@ button.search:hover {
 button.search:active {
 	background-color: #503e33;
 	color: rgba(255,255,255,0.3);
-
 }
 
 button.btn {
@@ -202,8 +199,6 @@ button.btn:active {
 	color: rgba(255,255,255,0.3);
 }
 
-
-
 .hashtag {
 	color: #000000;
 	font-size: 21px;
@@ -217,20 +212,17 @@ button.btn:active {
 	line-height: 26px;
 }
 
-
-
 .form-header {
 	font-size: 16px;
 	line-height: 21px;
-	font-weight: bold;				/* Инфраструктура, Тип жилья */
+	font-weight: bold;
 	color: #ffffff;
-	/*background-color: #323e44;*/
 }
 
 .catalog-btn {
 	border-color: #ffffff;
 	color: #ffffff;
-	background-color: transparent;/*#323e44;*/				/* кнопка ПОКАЗАТЬ */
+	background-color: transparent;				/* кнопка ПОКАЗАТЬ */
 	font-size: 14px;
 	line-height: 21px;
 	text-transform: uppercase;
@@ -279,7 +271,7 @@ button.btn:active {
 }
 
 .sort {
-	color: #cacaca;				/* По цене, По типу, По рейтингу */
+	color: #cacaca;
 }
 
 .sort:hover {
@@ -319,12 +311,10 @@ button.btn:active {
 	padding-top: 37px;
 }
 
-			/******************	С Е Т К И	****************/
-
 .wrapper {
 	width: 1200px;
 	margin: 0 auto;
-	box-shadow: 0px -5px 10px 5px #dbdbdb; 
+	box-shadow: 0px -5px 10px 5px #dbdbdb;
 }
 
 .main-navigation {
@@ -338,17 +328,15 @@ button.btn:active {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content: space-around;		/* список */
+	justify-content: space-around;
 	align-items: center;
 	margin: auto;
 	padding: 0px;
-	border: 0px solid red;    /*  граница для построения сетки, потом надо убрать */  
 	list-style: none;
 }
 
 .site-navigation li {
 	padding: 0px 0px;
-	border: 0px solid black;    /*  граница для построения сетки, потом надо убрать */
 	width: 300px;
 	box-sizing: border-box;
 }
@@ -392,26 +380,9 @@ a.main-header-logo {
 	background-repeat: no-repeat;
 	box-sizing: border-box;
 	height: 508px;
-	
 }
 
-/*.welcome {
-	background-image: url("../img/intro-welcome.svg");
-	border: 2px dashed white;		/*рамку уберем */					/* Welcome */
-/*	min-height: 353px;
-	min-width: 459px;
-}
-
-.mask {
-	background-image: url("../img/intro-mask.svg");        /* Маска */ 
-	/*background-repeat: no-repeat;
-	
-	height: 60px;
-	width: 100%;
-	vertical-align: bottom;
-}*/
-
-.white-bg {		
+.white-bg {
 	background-color: white;						/* Два блока с текстом и белым фоном */
 	width: 100%;
 	height: 216px;
@@ -422,15 +393,13 @@ a.main-header-logo {
 .main-content {
 	display: flex;				/* div для основного содержания главной страницы */
 	flex-wrap: wrap;
-	
-									/* рамку убрать */
 	margin: 0px auto;
-}				
+}
 
 .bg-hotels {
 	width: 800px;
 	height: 256px;
-	background-color: #99765f;								
+	background-color: #99765f;
 	background-image: url("../img/house.jpg");
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -440,7 +409,7 @@ a.main-header-logo {
 .bg-bridge {
 	width: 800px;
 	height: 256px;
-	background-color: #724739;										
+	background-color: #724739;
 	background-image: url("../img/bridge.jpg");
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -464,7 +433,6 @@ a.main-header-logo {
 	background-position: 50% 55px;
 }
 
-
 .icon-2 {
 	background-color: #ffffff;
 	background-image: url(../img/icon-2.svg);
@@ -480,7 +448,7 @@ a.main-header-logo {
 }
 
 .second-string,
-.fourth-string {          
+.fourth-string {
 	display: flex;				/* списки, из которых состоит вторая и четвертая строки основного содержания */
 	justify-content: space-around;
 	padding: 0px;
@@ -500,7 +468,6 @@ a.main-header-logo {
 	margin: 0px;
 	padding: 0px;
 	min-height: 120px;
-	border: 0px solid red;		/*     Р А М К А   */
 	background-color: #ffffff;
 }
 
@@ -512,7 +479,6 @@ a.main-header-logo {
 }
 
 .map {
-	border: 0px solid black;	/*   РАМКА   */ 
 	margin: 0px;
 	padding: 0px;
 	font-size: 0px;
@@ -520,13 +486,11 @@ a.main-header-logo {
 }
 
 .content-wrapper {
-	
 	display: flex;				/*div обертка для первой и третьей строк основного содержания  */
 	box-sizing: border-box;
 }
 
 .interest {
-	         /*  RAMKA */
 	height: 291px;
 	padding-top: 49px;				/* блок, стоящий перед перед формой */
 	margin-top: 0px;
@@ -543,7 +507,7 @@ a.main-header-logo {
 	padding: 0px;
 }
 
-.interest p {  
+.interest p {
 	margin-top: 0px;
 	padding: 0px;
 }
@@ -578,34 +542,21 @@ a.main-header-logo {
 	justify-content: space-between;
 	box-sizing: border-box;
 	margin-top: 0px;
-	margin-bottom: 29px;	
+	margin-bottom: 29px;
 }
 
 .search-form p:nth-child(1),
 .search-form p:nth-child(2) {
 	width: 460px;
-	position: relative;   /* для кнопок-календарей */
+	position: relative;			/* для кнопок-календарей */
 }
 
 .search-form p:nth-child(3),
 .search-form p:nth-child(4) {
 	box-sizing: border-box;
 	width: 229px;
-	position: relative;  /*для кнопок + - */
+	position: relative;			/*для кнопок + - */
 }
-
-/*.search-form p:nth-child(1)::after,
-.search-form p:nth-child(2)::after {
-	content: "";
-	position: absolute;
-	background-image: url("../img/calendar.svg");
-	background-repeat: no-repeat;
-	background-position: 0 0;
-	width: 22px;
-	height: 22px;
-	right: 14px;
-	bottom: 10px;
-}*/
 
 .search-form p:nth-child(3) {
 	padding-right: 3px;
@@ -631,18 +582,15 @@ a.main-header-logo {
 	border: none;
 	box-sizing: border-box;
 	height: 38px;
-	
 	text-transform: uppercase;
 	font-size: 14px;
 	line-height: 26px;
-	font-weight: bold;	
+	font-weight: bold;
 }
 
 .search-big-input {
 	width: 346px;
 	box-sizing: border-box;
-	/*padding-top: 12px;*/
-	/*padding-bottom: 12px;*/
 	padding-right: 42px;
 	padding-left: 12px;
 }
@@ -669,7 +617,7 @@ a.main-header-logo {
 	padding: 0;
 	background-color: inherit;
 	border-style: none;
-	outline: none;  /* НАСЧЕТ ЭТОГО НЕ УВЕРЕН. НО ИНАЧЕ РЕАЛЬНО НЕ КРАСИВО  */
+	outline: none;
 
 }
 
@@ -696,7 +644,7 @@ a.main-header-logo {
 	color: #a9a9a9;
 	background-color: inherit;
 	font-size: 18px;
-	line-height: 0px; /* это как-то странно работает, оттестить в разных браузерах! */
+	line-height: 0px;
 	font-weight: bold;
 	border-style: none;
 	outline: none;
@@ -713,7 +661,7 @@ a.main-header-logo {
 	color: #a9a9a9;
 	background-color: inherit;
 	font-size: 18px;
-	line-height: 0px; /* это как-то странно работает, оттестить в разных браузерах! */
+	line-height: 0px; 
 	font-weight: bold;
 	border-style: none;
 	box-sizing: border-box;
@@ -721,9 +669,7 @@ a.main-header-logo {
 }
 
 .minus-button:hover,
-.plus-button:hover/*, 
-.minus-button:focus,     
-.plus-button:focus*/ {
+.plus-button:hover {
 	color: #000000;
 }
 
@@ -731,7 +677,6 @@ a.main-header-logo {
 .plus-button:active {
 	color: #81b3d2;
 }
-							/*** 	C A T A L O G . H T M L 	***/
 
 .bg-inner {
 	background-color: #464e54;
@@ -739,20 +684,20 @@ a.main-header-logo {
 	min-height: 217px;
 }
 
-.range-bar {				
+.range-bar {
 	margin-left: auto;
 	margin-right: 72px;
 	padding-top: 28px;
 	width: 318px;
-  	color: #ffffff;
-  	text-transform: uppercase;
+	color: #ffffff;
+	text-transform: uppercase;
 }
 
 .filter-range-title {
-  	margin-bottom: 9px;
-  	font-weight: bold;
-  	font-size: 16px;
-  	line-height: 21px;
+	margin-bottom: 9px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
 }
 
 .price-controls {
@@ -768,7 +713,7 @@ a.main-header-logo {
 	content: "";
 	position: absolute;
 	width: 2px;
-  	height: 22px;
+	height: 22px;
 	background: #ffffff;
 	top: 50%;
 	left: 50%;
@@ -823,8 +768,8 @@ a.main-header-logo {
 	background: #ababab;
 	border: 8px solid #ffffff;
 	border-radius: 50%;
-  	box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
-  	cursor: pointer;
+	box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+	cursor: pointer;
 }
 
 .range-toggle-min {
@@ -873,15 +818,14 @@ legend.form-header {
 	padding-top: 27px;
 	padding-left: 72px;
 	margin-bottom:25px;
-}							
+}
 
 ul.catalog-list {
 	list-style: none;
 	font-size: 14px;				/* Список с чек-боксами */
 	line-height: 21px;				/* Бассейн, Парковка, Wi-Fi */
 	color: #ffffff;					/* Гостиница, Мотель, Апартаменты */
- /*	background-color: #323e44; */
-	font-weight: 400;
+ 	font-weight: 400;
 	padding: 0px;
 	margin: 0px;
 }	
@@ -889,34 +833,19 @@ ul.catalog-list {
 .catalog-list li {
 	padding-left: 110px;
 	margin-bottom: 24px;
-}				
+}
 
 .catalog-list label {
 	position: relative;
 	cursor: pointer;
 	user-select: none;
-}		
+}
 
-/*.catalog-list input + label::before {
-	content: "";
-	position: absolute;
-	width: 23px;
-	height: 23px;
-	left: -40px;
-	top: 0px;
-	background-image: url(../img/checkbox-off.svg);
-	background-repeat: no-repeat;
-}*/
-/*
-.catalog-list input + label::before path {
-	fill: #ff0000;
-}*/
-/* ---------------------------------- переделываю чек - боксы ---------------------------------------------------*/
-.checkbox-input ~ svg.checkbox-on {    /* включенный ЧБ прозрачный  */
+.checkbox-input ~ svg.checkbox-on {			/* включенный ЧБ не видно  */
 	display: none;
 }
 
-.checkbox-input ~ svg.checkbox-off {  /*  выключенный ЧБ отрисовыватся белым */
+.checkbox-input ~ svg.checkbox-off {		/*  выключенный ЧБ видно */
 	display: block;
 }
 
@@ -949,23 +878,6 @@ li.checkbox-item {
 	padding-left: 0px;
 	margin-left: 38px;
 }
-/*
-.catalog-list input:checked + label::before {
-	content: "";
-	position: absolute;
-	width: 26px;
-	height: 23px;
-	background-image: url(../img/checkbox-on.svg);
-	background-repeat: no-repeat;
-}
-
-.catalog-list input:disabled + label::before {
-	background-image: url(../img/checkbox-off-grey.svg);
-}
-
-.catalog-list input:checked:disabled + label::before {
-	background-image: url(../img/checkbox-on-grey.svg);
-}*/
 
 input[type="checkbox"] {
 	position: absolute;
@@ -1019,7 +931,7 @@ a.triangle-down {
 	width: 260px;
 	min-height: 90px;
 	margin-left: 30px;
-}	
+}
 
 .name-hotel h3 {
 	font-size: 21px;
@@ -1136,9 +1048,6 @@ a.triangle-down {
 	padding: 3px 12px 3px 15px;
 }
 
-
-				/***		F O O T E R         ***/ 
-
 .visit {
 	display: flex;
 	justify-content: center;
@@ -1152,7 +1061,7 @@ a.triangle-down {
 	width:400px;
 }
 
-.social-button {					
+.social-button {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1171,7 +1080,7 @@ a.triangle-down {
 }
 
 .social-button:active path {
-	fill: #88b6d1;     /* почему это не работает через rgba с прозрачностью???  */
+	fill: #88b6d1;
 }
 
 .copyright {
