@@ -892,12 +892,11 @@ ul.catalog-list {
 
 .catalog-list label {
 	position: relative;
-	display: block;
 	cursor: pointer;
 	user-select: none;
 }		
 
-.catalog-list input + label::before {
+/*.catalog-list input + label::before {
 	content: "";
 	position: absolute;
 	width: 23px;
@@ -906,37 +905,34 @@ ul.catalog-list {
 	top: 0px;
 	background-image: url(../img/checkbox-off.svg);
 	background-repeat: no-repeat;
-}
+}*/
 /*
 .catalog-list input + label::before path {
 	fill: #ff0000;
 }*/
 /* ---------------------------------- переделываю чек - боксы ---------------------------------------------------*/
-.input-1 ~ svg.checkbox-on /*path*/ {    /* включенный ЧБ прозрачный  */
-	/*fill: transparent;*/
+.checkbox-input ~ svg.checkbox-on {    /* включенный ЧБ прозрачный  */
 	display: none;
 }
 
-.input-1 ~ svg.checkbox-off /*path*/ {  /*  выключенный ЧБ отрисовыватся белым */
-	/*fill: #ffffff;*/
+.checkbox-input ~ svg.checkbox-off {  /*  выключенный ЧБ отрисовыватся белым */
 	display: block;
 }
 
-.input-1:checked ~ svg.checkbox-on /*path*/ {  
-	/*fill: #ffffff;*/
+.checkbox-input:checked ~ svg.checkbox-on {  
 	display: block;
 }
 
-.input-1:checked ~ svg.checkbox-off path {
-	fill: transparent;
+.checkbox-input:checked ~ svg.checkbox-off {
+	display: none;
 }
 
-.input-1:checked:disabled ~ svg.checkbox-on path {
-	fill: grey;
+.checkbox-input:checked:disabled ~ svg.checkbox-on path {
+	fill: #6a6a6a;
 }
 
-.input-1:disabled ~ svg.checkbox-off path {
-	fill: grey;
+.checkbox-input:disabled ~ svg.checkbox-off path {
+	fill: #6a6a6a;
 }
 
 .checkbox-on,
@@ -944,19 +940,15 @@ ul.catalog-list {
 	position: absolute;
 }
 
-li.li-1 {
+li.checkbox-item {
 	padding-left: 72px;
 }
 
-.label-1 {
-	padding-left: 38px;
-	margin-left: 0px;
+.checkbox-label {
+	padding-left: 0px;
+	margin-left: 38px;
 }
-
-
-
-
-
+/*
 .catalog-list input:checked + label::before {
 	content: "";
 	position: absolute;
@@ -972,7 +964,7 @@ li.li-1 {
 
 .catalog-list input:checked:disabled + label::before {
 	background-image: url(../img/checkbox-on-grey.svg);
-}
+}*/
 
 input[type="checkbox"] {
 	position: absolute;
