@@ -132,7 +132,7 @@ div.feature-item p {
 div.feature-item {
 	background-color: #81b3d2;
 	width: 400px;
-	height: 256px;				/* карточки с номерами преимуществ */
+	min-height: 256px;				/* карточки с номерами преимуществ */
 	padding: 45px;
 	min-height: 256px;
 	box-sizing: border-box;
@@ -146,12 +146,6 @@ li.feature-item {
 	padding-top: 46px;				/*  элементы четвертой строки  */
 	padding-left: 70px;
 	padding-right: 70px;
-}
-
-.interest p {
-	font-size: 14px;
-	line-height: 24px;
-	color: #333333;
 }
 
 button.search {
@@ -372,8 +366,9 @@ a.main-header-logo {
 .white-bg {
 	background-color: white;			/* Два блока с текстом и белым фоном */
 	width: 100%;
-	height: 216px;
+	min-height: 216px;
 	padding-top: 58px;
+	padding-bottom: 50px;
 	box-sizing: border-box;
 }
 
@@ -386,7 +381,7 @@ a.main-header-logo {
 .second-string-item {
 	background-color: #ffffff;
 	width: 400px;
-	height: 331px;					/*  элемент списка второй строки   */
+	min-height: 331px;					/*  элемент списка второй строки   */
 	padding: 55px;
 	padding-top: 132px;
 	margin: 0px;
@@ -480,8 +475,9 @@ a.main-header-logo {
 }
 
 .interest {
-	height: 291px;
+	min-height: 291px;
 	padding-top: 49px;				/* блок, стоящий перед перед формой */
+	padding-bottom: 100px;
 	margin-top: 0px;
 	box-sizing: border-box;
 	background-color: #ffffff;
@@ -497,7 +493,10 @@ a.main-header-logo {
 }
 
 .interest p {
-	margin-top: 0px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #333333;
+	margin: 0px;
 	padding: 0px;
 }
 
