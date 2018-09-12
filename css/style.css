@@ -424,7 +424,7 @@ a.main-header-logo {
 	list-style: none;
 	text-align: center;
 	position: relative;
-	z-index: 2;
+	z-index: 5;
 }
 
 .interest {
@@ -442,17 +442,29 @@ a.main-header-logo {
 
 .opacity-footer {
 	position: relative;
-	z-index: 1;
+	z-index: 2;
 	background-color: rgba(255,255,255,0.9);
 	margin-top: -120px;
 }
 
 .map {
 	position: relative;
+	min-height: 593px;
 	margin: 0px;
 	padding: 0px;
 	font-size: 0px;
 	line-height: 0px;
+	z-index: 2;
+}
+
+.image-map {
+	position: absolute;
+	z-index: 0;
+}
+
+.interactive-map {
+	position: relative;
+	z-index: 1;
 }
 
 .content-wrapper {
@@ -490,7 +502,7 @@ a.main-header-logo {
 	box-sizing: border-box;
 	background-color: #ffffff;
 	position: relative;
-	z-index: 2;
+	z-index: 5;
 }
 
 .interest h3 {
@@ -540,7 +552,7 @@ a.main-header-logo {
 	padding: 55px;
 	animation-name: popup;
 	animation-duration: 0.8s;
-	z-index: 1;
+	z-index: 3;
 }
 
 @keyframes popup {
