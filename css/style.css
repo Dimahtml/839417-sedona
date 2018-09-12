@@ -156,10 +156,13 @@ button.search {
 	font-weight: bold;
 	text-transform: uppercase;
 	border-style: none;
+	outline: none;
 	width: 568px;
 	min-height: 86px;
 	margin-top: 48px;
 	padding-bottom: 0px;
+	position: relative;
+	z-index: 2;
 }
 
 button.search:hover {
@@ -420,6 +423,8 @@ a.main-header-logo {
 	margin: 0px;
 	list-style: none;
 	text-align: center;
+	position: relative;
+	z-index: 2;
 }
 
 .interest {
@@ -484,6 +489,8 @@ a.main-header-logo {
 	margin-top: 0px;
 	box-sizing: border-box;
 	background-color: #ffffff;
+	position: relative;
+	z-index: 2;
 }
 
 .interest h3 {
@@ -1094,11 +1101,21 @@ a.triangle-down {
 	margin: 4px;
 }
 
-.copyright a:hover path{
+.copyright a:hover path {
 	fill: #81b3d2;
 }
 
-.copyright a:active path{
+.copyright a:active path {
 	fill: #c6c5c5;
 }
 
+@keyframes popup {
+	0% { transform: translateY(-395px); }
+	100% { transform: translateY(0px); }
+}
+
+.search-form {
+	animation-name: popup;
+	animation-duration: 0.8s;
+	z-index: 1;
+}
