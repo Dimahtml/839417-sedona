@@ -538,6 +538,14 @@ a.main-header-logo {
 	min-height: 395px;
 	box-sizing: border-box;
 	padding: 55px;
+	animation-name: popup;
+	animation-duration: 0.8s;
+	z-index: 1;
+}
+
+@keyframes popup {
+	0% {	transform: translateY(-395px);	}
+	100% {	transform: translateY(0px);		}
 }
 
 .modal-no-show {
@@ -1107,15 +1115,4 @@ a.triangle-down {
 
 .copyright a:active path {
 	fill: #c6c5c5;
-}
-
-@keyframes popup {
-	0% { transform: translateY(-395px); }
-	100% { transform: translateY(0px); }
-}
-
-.search-form {
-	animation-name: popup;
-	animation-duration: 0.8s;
-	z-index: 1;
 }
