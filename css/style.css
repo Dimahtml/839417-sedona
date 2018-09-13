@@ -1122,3 +1122,7 @@ a.triangle-down {
 .copyright a:active path {
 	fill: #c6c5c5;
 }
+
+.my-iframe {
+	border: 0;
+}
